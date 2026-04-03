@@ -103,6 +103,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [LLMrefs](https://llmrefs.com/) - AI search analytics platform and LLM brand visibility tracker. Track keywords, not prompts.
 * [Rankscale AI](https://rankscale.io/) - AI visibility tracker built for analytical precision and deep-dive brand monitoring.
 * [Surfeo](https://surfeo.ai/) - AI-powered GEO platform for SMBs; tracks brand visibility across ChatGPT, Gemini, Perplexity & Claude simultaneously. Includes AI content generation, website audits, and visibility scoring. Free tier; paid plans from €39/mo.
+* [Surfeo](https://surfeo.ai/) - AI-powered GEO platform for SMBs; tracks brand visibility across ChatGPT, Gemini, Perplexity & Claude simultaneously. Includes AI content generation, website audits, and visibility scoring. Free tier; paid plans from €39/mo.
 
 #### Specialized & Emerging Tools
 
