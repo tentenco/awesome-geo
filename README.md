@@ -134,6 +134,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [Schema App](https://www.schemaapp.com/) - Enterprise schema markup management.
 * [Yoast SEO](https://yoast.com/) - WordPress plugin with schema support.
 * [Rank Math](https://rankmath.com/) - SEO plugin with advanced schema features.
+* [toprank](https://github.com/nowork-studio/toprank) - Open-source Claude Code plugin that generates JSON-LD schema markup (FAQ, HowTo, Article, Product, LocalBusiness) and applies it directly to source code or CMS (WordPress, Strapi, Contentful, Ghost). MIT, 107 stars.
 
 ### Technical SEO for AI
 
