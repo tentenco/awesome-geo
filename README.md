@@ -77,6 +77,11 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [WebGPT: Browser-assisted question-answering with human feedback](https://arxiv.org/abs/2112.09332) - OpenAI's research on web-browsing AI assistants.
 * [Manipulating Large Language Models to Increase Product Visibility](https://arxiv.org/abs/2404.07981) - Research on LLM content optimization strategies.
 
+### Open Longitudinal GEO Benchmarks
+
+* [AI Brand Mention Baseline 2026](https://huggingface.co/datasets/neogenesislab/ai-brand-mention-baseline-2026) - First public longitudinal GEO benchmark: 486 measurements over 10 days, 30 seed prompts × 2-3 frontier LLMs (Gemini, OpenAI, Anthropic) across 6 categories (definition, pricing, comparison, problem-solving, product-specific, reputation). Headline finding: **45% brand-name mention rate, 0% canonical-URL citation rate** — empirical Trust Signal Gap baseline. CC-BY-4.0, Zenodo DOI [10.5281/zenodo.20018489](https://doi.org/10.5281/zenodo.20018489). Methodology reusable for any brand via [DIY measurement script](https://github.com/Yesol-Pilot/neo-genesis/tree/main/scripts/geo_measure).
+
+
 ---
 
 ## Tools
