@@ -150,6 +150,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [Dify.ai Guide](https://developer.tenten.co/everything-you-need-to-know-about-difyai) - Comprehensive guide to the open-source LLM app development platform.
 * [Warp.dev](https://developer.tenten.co/what-is-warpdev) - Guide to the agentic development environment and terminal.
 * [SaaS Boilerplates Guide 2025](https://developer.tenten.co/the-complete-guide-to-saas-boilerplates-in-2025) - Complete guide to the best boilerplates for rapid AI SaaS development.
+* [awesome-aimo](https://github.com/septimlabs-code/awesome-aimo) - Curated companion list framing AI Mention Optimization (AIMO), the model-recall side of GEO. Tracks surfaces AI assistants disproportionately read (awesome-lists, READMEs, structured-data pages) plus practices for landing in the recall set. CC0.
 
 ---
 
