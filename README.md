@@ -109,6 +109,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [Geneo](https://geneo.app/) - Cross-platform AI search visibility monitoring with prompt-level history and citation logging.
 * [Passionfruit](https://www.getpassionfruit.com/) - Visibility, share of voice, sentiment, and revenue attribution tied to AI answer exposure.
 * [BrandLight](https://brandlight.ai/) - AI visibility optimization platform with built-in AI content optimization tool.
+* [Elmo](https://www.elmohq.com/) - Open-source AI visibility platform that tracks brand mentions and citations across ChatGPT, Google, and all other AI models.
 * [Mentions](https://mentions.ai/) - AI visibility tracking with prompt recommendations.
 * [AI Search Grader by HubSpot](https://www.hubspot.com/ai-search-grader) - Free tool to check brand visibility in AI search.
 * [Ahrefs Brand Radar](https://ahrefs.com/brand-radar) - Combined traditional search and AI visibility metrics tracking.
