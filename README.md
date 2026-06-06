@@ -138,6 +138,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 ### Technical SEO for AI
 
 * [llms.txt Generator](https://llmstxt.org/) - Create llms.txt files for AI crawlers.
+* [Is My Brand in AI — AI Bot Checker](https://ismybrandinai.com/tools/ai-bot-checker) - Free, no-signup tool to check whether a site's robots.txt blocks AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended).
 * [Screaming Frog](https://www.screamingfrog.co.uk/) - Technical SEO crawler for AI optimization audits.
 * [Google PageSpeed Insights](https://pagespeed.web.dev/) - Core Web Vitals testing for AI crawler accessibility.
 
