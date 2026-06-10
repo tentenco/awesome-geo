@@ -140,6 +140,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [llms.txt Generator](https://llmstxt.org/) - Create llms.txt files for AI crawlers.
 * [Screaming Frog](https://www.screamingfrog.co.uk/) - Technical SEO crawler for AI optimization audits.
 * [Google PageSpeed Insights](https://pagespeed.web.dev/) - Core Web Vitals testing for AI crawler accessibility.
+* [Storetown SEO & AI Visibility Checker](https://www.storetown-media.de/stm-seo-audit-tool/) - Free, no-signup checker for AI-crawler access (GPTBot, PerplexityBot, ClaudeBot) plus SEO score, PageSpeed and an llms.txt generator.
 
 ### Developer Tools for AI
 
