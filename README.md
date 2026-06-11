@@ -113,6 +113,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [AI Search Grader by HubSpot](https://www.hubspot.com/ai-search-grader) - Free tool to check brand visibility in AI search.
 * [Ahrefs Brand Radar](https://ahrefs.com/brand-radar) - Combined traditional search and AI visibility metrics tracking.
 * [SE Ranking AI Search Toolkit](https://seranking.com/) - Comprehensive AI visibility tracking for agencies and teams.
+* [auto-geo](https://github.com/shadowresearch/auto-geo) - Open-source (MIT) CLI that audits pages for AI-citation readiness and measures whether ChatGPT, Claude, Gemini, Perplexity, and Grok cite a domain.
 
 ### Content Optimization
 
