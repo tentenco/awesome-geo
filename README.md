@@ -145,6 +145,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 
 *Resources for building and optimizing AI applications.*
 
+* [NotFair](https://github.com/nowork-studio/NotFair) - Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads. Connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP. MIT licensed (~2.9k stars).
 * [SuperClaude Framework](https://developer.tenten.co/superclaude-framework-revolutionizing-ai-programming-with-enhanced-claudecode-capabilities) - A professional AI programming framework with specialized commands for complex projects.
 * [CodeBuddy IDE by Tencent](https://developer.tenten.co/codebuddy-ide-by-tencent-a-game-changer-in-ai-powered-development) - An AI-powered development environment review and guide.
 * [Dify.ai Guide](https://developer.tenten.co/everything-you-need-to-know-about-difyai) - Comprehensive guide to the open-source LLM app development platform.
