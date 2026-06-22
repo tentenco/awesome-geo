@@ -113,6 +113,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [AI Search Grader by HubSpot](https://www.hubspot.com/ai-search-grader) - Free tool to check brand visibility in AI search.
 * [Ahrefs Brand Radar](https://ahrefs.com/brand-radar) - Combined traditional search and AI visibility metrics tracking.
 * [SE Ranking AI Search Toolkit](https://seranking.com/) - Comprehensive AI visibility tracking for agencies and teams.
+* [AI Crawler Bots](https://github.com/TryGeoSuite/ai-crawler-bots) - Open-source CLI and GitHub Action that audits robots.txt for AI crawler access, scores AI visibility, and analyzes access logs.
 
 ### Content Optimization
 
