@@ -102,6 +102,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [Knowatoa](https://knowatoa.com/) - AI search visibility and citation tracking platform.
 * [LLMrefs](https://llmrefs.com/) - AI search analytics platform and LLM brand visibility tracker. Track keywords, not prompts.
 * [Rankscale AI](https://rankscale.io/) - AI visibility tracker built for analytical precision and deep-dive brand monitoring.
+* [LLM Pulse](https://llmpulse.ai/) - All-in-one AI search platform tracking brand visibility, mentions, citations, sentiment and share of voice across ChatGPT, Perplexity, Gemini and Google AI Overviews, with AI traffic analytics and actionable recommendations.
 
 #### Specialized & Emerging Tools
 
