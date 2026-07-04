@@ -111,6 +111,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [BrandLight](https://brandlight.ai/) - AI visibility optimization platform with built-in AI content optimization tool.
 * [Mentions](https://mentions.ai/) - AI visibility tracking with prompt recommendations.
 * [AI Search Grader by HubSpot](https://www.hubspot.com/ai-search-grader) - Free tool to check brand visibility in AI search.
+* [AnswerLens](https://app.sfdj.net/) - Free public-evidence scan for B2B SaaS sites, checking crawlable URLs, llms.txt, pricing, comparison, and proof pages.
 * [Ahrefs Brand Radar](https://ahrefs.com/brand-radar) - Combined traditional search and AI visibility metrics tracking.
 * [SE Ranking AI Search Toolkit](https://seranking.com/) - Comprehensive AI visibility tracking for agencies and teams.
 
