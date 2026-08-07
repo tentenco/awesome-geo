@@ -100,6 +100,7 @@ As AI-powered search transforms how users discover information, optimizing conte
 * [Goodie AI](https://goodie.ai/) - Track brand mentions across AI chatbots with comprehensive generative search optimization.
 * [Writesonic GEO](https://writesonic.com/) - All-in-one GEO + SEO platform combining visibility monitoring with content optimization tools.
 * [Knowatoa](https://knowatoa.com/) - AI search visibility and citation tracking platform.
+* [Seeno](https://seeno.ai/) - AI visibility monitoring across ChatGPT, Perplexity, Gemini, Claude, and Google AI Overviews. Vertical benchmarks for real estate, hotels, and law firms with published industry studies. Query-based pricing from $149/month.
 * [LLMrefs](https://llmrefs.com/) - AI search analytics platform and LLM brand visibility tracker. Track keywords, not prompts.
 * [Rankscale AI](https://rankscale.io/) - AI visibility tracker built for analytical precision and deep-dive brand monitoring.
 
