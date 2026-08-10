@@ -1,0 +1,77 @@
+name: Suggest a resource
+description: Propose a GEO/AEO resource, tool, paper, dataset, or official update.
+title: "[Resource]: "
+labels:
+  - resource
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. We do not accept affiliate links or paid placement. Please disclose any relationship to the resource.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      placeholder: https://example.com/resource
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence class
+      options:
+        - Official platform or standards source
+        - Peer-reviewed research
+        - Preprint
+        - Independent study
+        - Vendor report or commercial tool
+        - Community discussion
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Publication or material update date
+      placeholder: YYYY-MM-DD or unknown
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it belongs
+      description: Describe the distinct capability or evidence in two or three neutral sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Methodology and limitations
+      description: Required for studies, datasets, rankings, and performance claims.
+  - type: textarea
+    id: affiliation
+    attributes:
+      label: Affiliation disclosure
+      description: State whether you created, work for, advise, invest in, or receive compensation from this resource. Write “None” if not affiliated.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The URL is not an affiliate or referral link.
+          required: true
+        - label: I searched the repository and open issues for duplicates.
+          required: true
+        - label: I have not offered or received payment for inclusion.
+          required: true
+        - label: I agree to follow the Code of Conduct.
+          required: true
+

@@ -1,413 +1,133 @@
-Here is the updated **Awesome GEO / AIO / AEO / AI SEO** list. I have separated the Tenten resources and integrated them into their appropriate categories (Guides, Articles, Tools, D2C), translated all Chinese content into English, and added the requested Call to Action at the end.
+# Awesome GEO, AEO & AI Search
 
----
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](LICENSE)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-# Awesome GEO / AIO / AEO / AI SEO [](https://awesome.re)
+> A community-curated, evidence-aware guide to Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), AI search visibility, and the open web.
 
-> A curated list of awesome resources for AI Search Optimization — including Generative Engine Optimization (GEO), AI Overviews (AIO), Answer Engine Optimization (AEO), and AI SEO for ChatGPT, Claude, Grok, Perplexity, and more.
+**[繁體中文](README-zh-TW.md)** · [简体中文](README-zh-CN.md) · [日本語](README-ja.md) · [한국어](README-ko.md) · [العربية](README-ar.md)
 
-As AI-powered search transforms how users discover information, optimizing content for Large Language Models (LLMs) and AI assistants has become essential. This list compiles the best tools, research, guides, and resources to help you succeed in the age of AI search.
+Last reviewed: **2026-08-10** · [What changed in 2026](docs/2026-landscape.md)
 
-## Contents
+## Start here
 
-* [What is AI Search Optimization?](https://www.google.com/search?q=%23what-is-ai-search-optimization)
-* [Key Statistics](https://www.google.com/search?q=%23key-statistics)
-* [Research Papers](https://www.google.com/search?q=%23research-papers)
-* [Tools](https://www.google.com/search?q=%23tools)
-* [AI Visibility & Monitoring](https://www.google.com/search?q=%23ai-visibility--monitoring)
-* [Content Optimization](https://www.google.com/search?q=%23content-optimization)
-* [Schema & Structured Data](https://www.google.com/search?q=%23schema--structured-data)
-* [Developer Tools for AI](https://www.google.com/search?q=%23developer-tools-for-ai)
+- **New to the field?** Read the [practitioner's playbook](docs/playbook.md).
+- **Need primary sources?** Use the [official guidance](docs/official-guidance.md).
+- **Choosing software?** Compare the [tools and ecosystem](docs/tools.md).
+- **Designing reporting?** Use the [measurement framework](docs/measurement.md).
+- **Following the evidence?** Browse [research and datasets](docs/research.md).
+- **Tracking practitioner debate?** See [Reddit's top 2026 discussions](docs/reddit-2026.md).
 
+## What these terms mean
 
-* [AI Search Engines](https://www.google.com/search?q=%23ai-search-engines)
-* [Guides & Tutorials](https://www.google.com/search?q=%23guides--tutorials)
-* [General GEO Guides](https://www.google.com/search?q=%23general-geo-guides)
-* [Platform-Specific Guides](https://www.google.com/search?q=%23platform-specific-guides)
+The industry does not use one stable taxonomy. This project uses the following working definitions:
 
-
-* [D2C & E-commerce Strategies](https://www.google.com/search?q=%23d2c--e-commerce-strategies)
-* [Articles & Blog Posts](https://www.google.com/search?q=%23articles--blog-posts)
-* [Videos & Podcasts](https://www.google.com/search?q=%23videos--podcasts)
-* [Books](https://www.google.com/search?q=%23books)
-* [Communities](https://www.google.com/search?q=%23communities)
-* [Courses](https://www.google.com/search?q=%23courses)
-* [Newsletters](https://www.google.com/search?q=%23newsletters)
-* [Case Studies](https://www.google.com/search?q=%23case-studies)
-* [Key GEO Strategies](https://www.google.com/search?q=%23key-geo-strategies)
-* [Contributing](https://www.google.com/search?q=%23contributing)
-
----
-
-## What is AI Search Optimization?
-
-| Term | Full Name | Description |
+| Term | Working definition | Primary outcome |
 | --- | --- | --- |
-| **GEO** | Generative Engine Optimization | Optimizing content to be cited and referenced by AI-powered generative search engines |
-| **AIO** | AI Overview Optimization | Optimizing for Google's AI Overviews (formerly SGE - Search Generative Experience) |
-| **AEO** | Answer Engine Optimization | Optimizing content for answer engines like featured snippets, voice assistants, and AI chatbots |
-| **AI SEO** | AI Search Engine Optimization | Broader term encompassing all optimization strategies for AI-powered search systems |
-| **LLMO** | Large Language Model Optimization | Optimizing content to be accurately represented in LLM training and responses |
+| **GEO** | Improving whether a source or entity is retrieved, used, represented, or cited in a generated answer. | Citations, mentions, accurate representation |
+| **AEO** | Making content eligible and useful for systems that provide a direct answer, including answer boxes, assistants, and generative search. | Answer inclusion and answer quality |
+| **AI search visibility** | The umbrella measurement discipline across AI Overviews, AI Mode, ChatGPT, Copilot, Perplexity, Claude, Gemini, and similar products. | Visibility, share of voice, sentiment, referrals |
+| **SEO** | Improving discovery, indexing, presentation, and performance in search engines. | Search visibility and qualified traffic |
 
----
+These practices overlap. Google explicitly says its existing SEO fundamentals remain applicable to AI Overviews and AI Mode and that no special technical requirements are needed. Other answer engines have different crawlers, indexes, interfaces, and reporting, so their operational details must be evaluated separately.
 
-## Key Statistics
+## 2026: the signal, not the hype
 
-* **527%** increase in AI-referred sessions between January and May 2025 (Previsible)
-* **47%** of Google searches now feature AI-generated overviews
-* **400M+** weekly active users on ChatGPT as of early 2025
-* **64%** CTR drop for position-one results when AI summaries appear
-* **40%** visibility boost achievable through GEO optimization (Princeton Research)
-* **65%+** of searches now end without a click due to AI answers
+These are the most consequential changes first published in 2026:
 
----
+- **Google published dedicated generative-AI Search guidance** on 2026-05-15. It covers query fan-out, non-commodity content, multimodal and local information, AI agents, and myths about GEO/AEO. [Official guide](https://developers.google.com/search/docs/appearance/ai-features) · [announcement](https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing)
+- **Google Search Console introduced Generative AI performance reports** on 2026-06-03, initially for a subset of sites. The reports expose impressions, pages, countries, devices, and time trends for generative AI features. [Announcement](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports)
+- **Bing Webmaster Tools introduced AI Performance** in public preview on 2026-02-10, including total citations, cited pages, grounding queries, and trends across Microsoft AI experiences. [Announcement](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)
+- **Measurement became a research problem of its own.** New work argues that probabilistic answers require repeated runs and distributions, not a single prompt snapshot. [Don't Measure Once](https://arxiv.org/abs/2604.07585) · [2023–2026 critical survey](https://arxiv.org/abs/2607.14035)
+- **The product category moved from monitoring toward workflows and agents.** Examples include Amplitude's expanded AI Visibility tool, Onclusive GEO Analytics, and Jasper's GEO Agent. These are vendor claims, not independent proof of effectiveness. [Ecosystem details](docs/tools.md#verified-2026-launches-and-major-updates)
 
-## Research Papers
+Read the dated [2026 landscape and changelog](docs/2026-landscape.md) for the complete timeline and source notes.
 
-### Foundational Research
+## Official platform resources
 
-* [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) - Foundational paper from Princeton, Georgia Tech, The Allen Institute, and IIT Delhi on optimizing content for generative engines. Published at KDD 2024.
-* [Generative Engine Optimization - Wikipedia](https://en.wikipedia.org/wiki/Generative_engine_optimization) - Comprehensive overview of GEO concepts and history.
+### Google Search
 
-### LLM & RAG Research
+- [AI features and your website](https://developers.google.com/search/docs/appearance/ai-features) — Eligibility, query fan-out, controls, measurement, and myth-busting.
+- [Search documentation updates](https://developers.google.com/search/updates) — Dated canonical changelog; an RSS feed is available on the page.
+- [Search Essentials](https://developers.google.com/search/docs/essentials) — Technical requirements, spam policies, and key best practices.
+- [Helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) — Google's content quality guidance.
+- [Structured data introduction](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) — Use supported markup that matches visible content; structured data is not a guaranteed GEO shortcut.
+- [Google crawlers and fetchers](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers) — User agents and crawl controls, including `Google-Extended` documentation links.
 
-* [Large Language Models for Information Retrieval: A Survey](https://arxiv.org/abs/2308.07107) - Comprehensive survey on LLMs in search and retrieval.
-* [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401) - The RAG paper that underpins modern AI search.
-* [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172) - Understanding how LLMs process and prioritize information.
-* [WebGPT: Browser-assisted question-answering with human feedback](https://arxiv.org/abs/2112.09332) - OpenAI's research on web-browsing AI assistants.
-* [Manipulating Large Language Models to Increase Product Visibility](https://arxiv.org/abs/2404.07981) - Research on LLM content optimization strategies.
+### Microsoft and Bing
 
----
+- [AI Performance in Bing Webmaster Tools](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview) — First-party citation reporting introduced in 2026.
+- [The evolving role of the index](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers) — Microsoft's distinction between ranking pages and grounding answers.
+- [IndexNow](https://www.indexnow.org/) — Open protocol for notifying participating engines of URL changes.
+- [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) — Core crawl, index, and quality guidance.
 
-## Tools
+### OpenAI and other answer engines
 
-### AI Visibility & Monitoring
+- [OpenAI publisher FAQ](https://help.openai.com/en/articles/12627856) — `OAI-SearchBot`, `noindex`, inclusion, citations, and referral tracking.
+- [OpenAI crawler documentation](https://platform.openai.com/docs/bots) — Distinguishes search, user-triggered, and training-related user agents.
+- [Anthropic web crawlers](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) — Anthropic's crawl controls.
+- [Perplexity crawler documentation](https://docs.perplexity.ai/guides/bots) — Official user-agent and robots guidance.
 
-#### Enterprise Solutions
+See [official guidance](docs/official-guidance.md) for a crawler-control matrix and claims that should not be generalized across platforms.
 
-* [Semrush AI Visibility Toolkit](https://www.semrush.com/ai-visibility/) - Comprehensive AI search visibility tracking across ChatGPT, Claude, Perplexity, and Google AI Mode. Features competitor benchmarking and sentiment analysis.
-* [Semrush Enterprise AIO](https://www.semrush.com/) - Enterprise-grade solution for brand tracking across AI search platforms with SOC 2 compliance.
-* [Profound](https://www.tryprofound.com/) - AI search monitoring platform with live capture, citation volatility analysis, and ChatGPT Shopping visibility tracking. Raised $20M seed round in 2025.
-* [BrightEdge](https://www.brightedge.com/) - Comprehensive AI platform integration for enterprise SEO with systematic AI implementation.
-* [seoClarity](https://www.seoclarity.net/) - Enterprise SEO platform with advanced AI intelligence integration.
-* [Authoritas](https://www.authoritas.com/) - AI brand monitoring as part of a larger SEO and digital marketing platform.
+## Essential research
 
-#### Mid-Market Tools
+- [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) — The foundational paper; KDD 2024. Introduced GEO-Bench and experimental visibility interventions.
+- [GEO project and benchmark](https://generative-engines.com/GEO/) — Project site, data, code, and benchmark context.
+- [Don't Measure Once: Measuring Visibility in AI Search (GEO)](https://arxiv.org/abs/2604.07585) — 2026 preprint on repeated measurement under stochastic outputs.
+- [Optimizing Visibility in Generative Engines: A Critical Survey (2023–2026)](https://arxiv.org/abs/2607.14035) — 2026 preprint reviewing terminology, metrics, evidence, risks, and reproducibility.
+- [AgenticGEO](https://arxiv.org/abs/2603.20213) — 2026 preprint proposing an agentic optimization system.
+- [GEO for Pinterest acquisition growth](https://arxiv.org/abs/2602.02961) — 2026 applied VLM/agent framework; treat its domain-specific findings cautiously.
 
-* [Otterly.AI](https://otterly.ai/) - Award-winning AI search monitoring tool tracking brand mentions and citations across ChatGPT, Perplexity, Google AI Overviews, and more. Used by 15,000+ marketing professionals.
-* [Peec AI](https://www.peec.ai/) - Monitor how AI assistants talk about your brand. Founded in 2025 with €5.2M seed funding. Plans start at €89/month.
-* [Scrunch AI](https://scrunch.ai/) - AI search analytics with sentiment and misinformation flags, featuring "Agent Experience Platform" for optimization.
-* [Goodie AI](https://goodie.ai/) - Track brand mentions across AI chatbots with comprehensive generative search optimization.
-* [Writesonic GEO](https://writesonic.com/) - All-in-one GEO + SEO platform combining visibility monitoring with content optimization tools.
-* [Knowatoa](https://knowatoa.com/) - AI search visibility and citation tracking platform.
-* [LLMrefs](https://llmrefs.com/) - AI search analytics platform and LLM brand visibility tracker. Track keywords, not prompts.
-* [Rankscale AI](https://rankscale.io/) - AI visibility tracker built for analytical precision and deep-dive brand monitoring.
+Preprints are labelled as such and should not be treated as platform guarantees. More in [research and datasets](docs/research.md).
 
-#### Specialized & Emerging Tools
+## Tool map
 
-* [AthenaHQ](https://www.athenahq.ai/) - Prompt analytics, competitor benchmarking, and enterprise testing with Query Volume Estimation Model (QVEM).
-* [Geneo](https://geneo.app/) - Cross-platform AI search visibility monitoring with prompt-level history and citation logging.
-* [Passionfruit](https://www.getpassionfruit.com/) - Visibility, share of voice, sentiment, and revenue attribution tied to AI answer exposure.
-* [BrandLight](https://brandlight.ai/) - AI visibility optimization platform with built-in AI content optimization tool.
-* [Mentions](https://mentions.ai/) - AI visibility tracking with prompt recommendations.
-* [AI Search Grader by HubSpot](https://www.hubspot.com/ai-search-grader) - Free tool to check brand visibility in AI search.
-* [Ahrefs Brand Radar](https://ahrefs.com/brand-radar) - Combined traditional search and AI visibility metrics tracking.
-* [SE Ranking AI Search Toolkit](https://seranking.com/) - Comprehensive AI visibility tracking for agencies and teams.
-
-### Content Optimization
-
-* [Surfer SEO](https://surferseo.com/) - Content optimization with AI search features and LLM optimization strategies.
-* [Clearscope](https://www.clearscope.io/) - AI-powered content optimization platform.
-* [MarketMuse](https://www.marketmuse.com/) - AI content planning and optimization with competitive analysis.
-* [Frase](https://www.frase.io/) - AI content optimization for search with comprehensive GEO guide.
-* [NeuronWriter](https://neuronwriter.com/) - Content optimization with NLP recommendations.
-* [WriterZen](https://writerzen.net/) - AI-powered content workflow platform.
-* [SEMAI.AI](https://semai.ai/) - AEO-focused platform with content gap detection and AI-ready content generation.
-* [Alli AI](https://www.alliai.com/) - Automated technical optimization for generative engine requirements including schema markup implementation.
-* [InLinks](https://inlinks.com/) - Entity optimization and internal linking strategies for AI search engines.
-
-### Schema & Structured Data
-
-* [Schema.org](https://schema.org/) - The official structured data vocabulary.
-* [Google Structured Data Testing Tool](https://developers.google.com/search/docs/appearance/structured-data) - Validate your schema markup.
-* [Geordy.ai](https://geordy.ai/) - Automates JSON-LD generation and validation for GEO. Supports JSON-LD, YAML, Markdown, and llms.txt.
-* [Schema App](https://www.schemaapp.com/) - Enterprise schema markup management.
-* [Yoast SEO](https://yoast.com/) - WordPress plugin with schema support.
-* [Rank Math](https://rankmath.com/) - SEO plugin with advanced schema features.
-
-### Technical SEO for AI
-
-* [llms.txt Generator](https://llmstxt.org/) - Create llms.txt files for AI crawlers.
-* [Screaming Frog](https://www.screamingfrog.co.uk/) - Technical SEO crawler for AI optimization audits.
-* [Google PageSpeed Insights](https://pagespeed.web.dev/) - Core Web Vitals testing for AI crawler accessibility.
-
-### Developer Tools for AI
-
-*Resources for building and optimizing AI applications.*
-
-* [SuperClaude Framework](https://developer.tenten.co/superclaude-framework-revolutionizing-ai-programming-with-enhanced-claudecode-capabilities) - A professional AI programming framework with specialized commands for complex projects.
-* [CodeBuddy IDE by Tencent](https://developer.tenten.co/codebuddy-ide-by-tencent-a-game-changer-in-ai-powered-development) - An AI-powered development environment review and guide.
-* [Dify.ai Guide](https://developer.tenten.co/everything-you-need-to-know-about-difyai) - Comprehensive guide to the open-source LLM app development platform.
-* [Warp.dev](https://developer.tenten.co/what-is-warpdev) - Guide to the agentic development environment and terminal.
-* [SaaS Boilerplates Guide 2025](https://developer.tenten.co/the-complete-guide-to-saas-boilerplates-in-2025) - Complete guide to the best boilerplates for rapid AI SaaS development.
-
----
-
-## AI Search Engines
-
-### Conversational AI Search
-
-* [ChatGPT](https://chat.openai.com/) - OpenAI's conversational AI with web browsing. 400M+ weekly active users.
-* [Claude](https://claude.ai/) - Anthropic's AI assistant with advanced reasoning capabilities.
-* [Grok](https://grok.x.ai/) - xAI's conversational AI with real-time X (Twitter) data integration.
-* [Perplexity](https://www.perplexity.ai/) - AI-powered answer engine with citations. 500M+ monthly queries.
-* [You.com](https://you.com/) - AI search engine with multiple modes.
-* [Phind](https://www.phind.com/) - AI search engine optimized for developers.
-* [Kagi](https://kagi.com/) - Premium search with AI features.
-* [DeepSeek](https://www.deepseek.com/) - Advanced AI search platform.
-
-### AI-Enhanced Traditional Search
-
-* [Google AI Overviews](https://blog.google/products/search/generative-ai-google-search-may-2024/) - AI-generated summaries in Google Search. Appears in ~47% of searches.
-* [Google AI Mode](https://blog.google/) - Conversational search tab for all US users.
-* [Bing Copilot](https://www.bing.com/chat) - Microsoft's AI-powered search.
-* [Brave Search](https://search.brave.com/) - Privacy-focused search with AI features.
-* [DuckDuckGo AI Chat](https://duckduckgo.com/aichat) - Anonymous AI chat integration.
-
-### Specialized AI Search
-
-* [Consensus](https://consensus.app/) - AI search engine for scientific research.
-* [Elicit](https://elicit.org/) - AI research assistant for academic papers.
-* [Semantic Scholar](https://www.semanticscholar.org/) - AI-powered academic search.
-
----
-
-## Guides & Tutorials
-
-### General GEO Guides
-
-* [Generative Engine Optimization (GEO): Complete Guide 2025 - Strapi](https://strapi.io/blog/generative-engine-optimization-geo-guide) - Technical implementation guide with code examples.
-* [GEO Complete Tutorial Guide: Mastering AI Search Strategies](https://tenten.co/learning/geo-awesome-guide/) - (Tenten) A comprehensive step-by-step guide to mastering Generative Engine Optimization.
-* [The Ultimate GEO Checklist](https://geo.tenten.co/) - (Tenten) An actionable checklist for optimizing websites for generative search engines.
-* [Traditional SEO vs. Generative Engine Optimization (GEO)](https://tenten.co/learning/seo-vs-geo/) - (Tenten) A detailed comparison of strategies, KPIs, and outcomes for SEO and GEO.
-* [How to Optimize Content for AI Search Engines - Semrush](https://www.semrush.com/blog/how-to-optimize-content-for-ai-search-engines/) - 7-step optimization guide.
-* [Answer Engine Optimization (AEO) Guide - Amsive](https://www.amsive.com/insights/seo/answer-engine-optimization-aeo-evolving-your-seo-strategy-in-the-age-of-ai-search/) - Comprehensive AEO guide for AI search visibility.
-
-### Platform-Specific Guides
-
-* [How to Get Your Website Indexed by ChatGPT, Gemini, and Perplexity](https://tenten.co/learning/how-to-indexed-in-chatgpt-gemini-perplexity/) - (Tenten) Specific tactics for ensuring major AI models can crawl and index your site.
-* [How to Write Articles Using Perplexity AI](https://tenten.co/learning/perplexity-seo-how-to/) - (Tenten) A guide to leveraging Perplexity for content creation and optimization.
-* [GEO Optimization Guide - Passionfruit](https://www.getpassionfruit.com/blog/generative-engine-optimization-guide-for-chatgpt-perplexity-gemini-claude-copilot) - Platform-specific optimization strategies.
-* [Google Search Central - AI Content Guidelines](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) - Google's guidance on helpful content.
-* [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) - Optimizing for Bing and Copilot.
-
----
-
-## D2C & E-commerce Strategies
-
-*Resources specifically for optimizing e-commerce brands for AI and modern web standards.*
-
-* [Comprehensive Comparison of Taiwan E-commerce Platforms](https://tenten.co/d2c/taiwan-ecommerce-compare-shopify/) - (Tenten) Analysis of Shopify vs. local platforms like Shopline and CyberBiz.
-* [2025 Taiwan E-commerce Trends](https://tenten.co/d2c/2025-ecommerce-trend-in-taiwan/) - (Tenten) Key trends shaping the future of digital retail in Asia.
-* [Reducing Cart Abandonment Rates](https://tenten.co/d2c/reduce-ecommerce-cart-abandon-rate/) - (Tenten) Strategies to eliminate customer concerns and boost conversions.
-* [Is Self-Built E-commerce Cost-Effective?](https://tenten.co/d2c/everything-u-need-to-know-ecommerce-iin-taiwan/) - (Tenten) A cost-benefit analysis of custom builds vs. platforms.
-* [Instagram E-commerce Guide](https://tenten.co/d2c/instagram-ecommerce-guide/) - (Tenten) Maximizing sales through social commerce.
-* [Stripe & Webflow Integration Guide](https://tenten.co/d2c/stripe-webflow-integration/) - (Tenten) Technical guide for seamless payment integration.
-
----
-
-## Articles & Blog Posts
-
-### Industry Analysis
-
-* [Difference Between SEO and GEO](https://seo.tenten.co/en/seo/difference-between-search-engine-optimization-seo-and-generative-engine-optimization-geo-along-with-key-distinctions-and-strategies/) - (Tenten) Key distinctions and strategic shifts required for 2025.
-* [What is Google SGE?](https://seo.tenten.co/en/seo/whai-is-google-sge/) - (Tenten) A deep dive into Google's Search Generative Experience.
-* [Enhancing Your SEO Strategy with AI](https://seo.tenten.co/en/ai-seo/what-is-ai-seo/) - (Tenten) Implementation guide for AI-First SEO.
-* [AI Search Optimization Insights from 41M Results - SEOmator](https://seomator.com/blog/ai-search-optimization-insights) - Brighton SEO 2025 research findings from Profound.
-* [State of Answer Engine Optimization (AEO) 2026](https://www.jacklimebear.com/post/state-of-answer-engine-optimization-aeo-2026) - Comprehensive statistics and trends report.
-* [Google Answers What To Do For AEO/GEO - Search Engine Journal](https://www.searchenginejournal.com/google-answers-what-to-do-for-aeo-geo/558322/) - Google VP's guidance on AI search optimization.
-
-### Content Strategy
-
-* [What is Content Marketing? (Ultimate Guide with AI Tools)](https://tenten.co/learning/content-marketing-ultimate-guide/) - (Tenten) How to integrate AI tools into modern content workflows.
-* [B2B Content Matrix: Reddit & LinkedIn](https://tenten.co/learning/b2b-content-matrix-reddit/) - (Tenten) Strategic distribution for B2B content on key social platforms.
-* [B2B Content Matrix Complete Guide](https://tenten.co/learning/what-is-content-matrix/) - (Tenten) Building a content framework that scales.
-
-### Tool Reviews & Comparisons
-
-* [Top 10 Tools for GEO in 2025 - Contently](https://contently.com/2025/05/25/top-10-tools-for-generative-engine-optimization-in-2025/) - Comprehensive tool roundup.
-* [8 Best GEO Software in 2026 - Alex Birkett](https://www.alexbirkett.com/generative-engine-optimization-software/) - Expert tool reviews and recommendations.
-* [Top 10 GEO Tools - AthenaHQ](https://www.athenahq.ai/articles/generative-engine-optimization-tools) - Y Combinator data and tool analysis.
-* [Best AI Visibility Tools - Analytify](https://analytify.io/best-ai-visibility-tools/) - Complete guide for SEO professionals.
-
----
-
-## Videos & Podcasts
-
-### YouTube Channels
-
-* [Google Search Central](https://www.youtube.com/@GoogleSearchCentral) - Official Google Search updates including AI features.
-* [Ahrefs](https://www.youtube.com/@AhrefsCom) - SEO tutorials including AI search topics.
-* [SEMrush](https://www.youtube.com/@semrush) - Digital marketing and AI search content.
-* [Kevin Indig](https://www.youtube.com/@Kevin_Indig) - Growth and SEO insights including GEO strategies.
-
-### Podcasts
-
-* [Search Off the Record](https://developers.google.com/search/podcasts/search-off-the-record) - Google's official SEO podcast with AI search discussions.
-* [The AI Marketing Show](https://www.hubspot.com/podcastnetwork) - AI in marketing and search.
-* [Search with Candour](https://www.searchwithcandour.com/) - Weekly SEO and AI search updates.
-* [Voices of Search](https://www.voicesofsearch.com/) - Daily SEO and search marketing podcast.
-
----
-
-## Books
-
-* **"AI-First SEO"** - Optimizing for the new search paradigm
-* **"The Age of AI"** by Henry Kissinger, Eric Schmidt, Daniel Huttenlocher - Understanding AI's impact on society
-* **"Artificial Intelligence: A Modern Approach"** by Stuart Russell & Peter Norvig - Technical AI foundations
-
----
-
-## Communities
-
-### Forums & Groups
-
-* [r/SEO](https://www.reddit.com/r/SEO/) - Reddit's SEO community with AI search discussions
-* [r/bigseo](https://www.reddit.com/r/bigseo/) - Professional SEO community
-* [Traffic Think Tank](https://trafficthinktank.com/) - Premium SEO community
-* [Superpath](https://superpath.co/) - Content marketing community
-
-### Social & Professional
-
-* [SEO Twitter/X Community](https://twitter.com/i/communities) - Follow #GEO #AISEO #AEO hashtags
-* [LinkedIn SEO Groups](https://www.linkedin.com/groups/) - Professional SEO networks
-* [Women in Tech SEO](https://www.womenintechseo.com/) - Inclusive SEO community
-* [SEO Signals Lab](https://seosignalslab.com/) - Active SEO community
-* [Ahrefs Insider](https://ahrefs.com/) - Ahrefs user community
-
----
-
-## Courses
-
-### Free Courses
-
-* [Google Search Central Training](https://developers.google.com/search/docs) - Official Google resources
-* [HubSpot SEO Certification](https://academy.hubspot.com/) - Free SEO fundamentals
-* [Semrush Academy](https://www.semrush.com/academy/) - Free SEO and content courses including AI visibility
-* [Otterly.AI GEO Email Course](https://otterly.ai/) - Free GEO fundamentals course
-
-### Paid Courses
-
-* [The Authority Site System](https://www.authorityhacker.com/) - Comprehensive SEO course
-* [SEO That Works](https://backlinko.com/) - Brian Dean's advanced SEO training
-* [Content Marketing Course by Ahrefs](https://ahrefs.com/academy) - Content strategy for search
-
----
-
-## Newsletters
-
-* [Search Engine Roundtable](https://www.seroundtable.com/) - Daily SEO news by Barry Schwartz
-* [Search Engine Land Newsletter](https://searchengineland.com/) - Industry news and AI search updates
-* [The SEO MBA](https://newsletter.seomba.com/) - SEO strategy and business
-* [Aleyda Solis' SEOFOMO](https://seofomo.co/) - Weekly SEO news curated by Aleyda Solis
-* [Marie Haynes' Newsletter](https://www.mariehaynes.com/) - Google updates and AI search analysis
-
----
-
-## Case Studies
-
-* **Revolution Beauty** - Achieved #1 market share in ChatGPT and 73% share of voice in LLMs for beauty dupe category (LLMrefs x Rise at Seven)
-* **E-commerce GEO Success** - How brands increased AI search visibility with structured data
-* **B2B Lead Generation via AI Search** - Enterprise case studies showing 32% of SQLs from generative AI search
-* **Publisher Citation Strategies** - News and media GEO tactics for AI visibility
-
----
-
-## Key GEO Strategies
-
-Based on the foundational GEO research from Princeton University, these strategies can improve content visibility in generative engines:
-
-| Strategy | Description | Impact |
+| Need | Start with | Notes |
 | --- | --- | --- |
-| **Cite Sources** | Include authoritative citations and references | High |
-| **Include Statistics** | Add relevant data every 150-200 words | High |
-| **Add Quotations** | Include expert quotes and testimonials | Medium-High |
-| **Be Authoritative** | Write with confidence and expertise (E-E-A-T) | Medium |
-| **Use Technical Terms** | Include domain-specific vocabulary appropriately | Medium |
-| **Optimize Fluency** | Ensure clear, well-structured writing | Medium |
-| **Answer Questions Directly** | Provide clear answers in first 40-60 words | High |
-| **Structure Content** | Use headings, lists, and logical organization | High |
-| **Implement Schema** | Add comprehensive JSON-LD structured data | High |
-| **Update Regularly** | Refresh content quarterly for 2x citation rates | High |
+| Google AI feature visibility | [Google Search Console](https://search.google.com/search-console/about) | First-party; generative AI report has limited rollout as of this review. |
+| Microsoft AI citations | [Bing Webmaster Tools](https://www.bing.com/webmasters/about) | First-party AI Performance public preview. |
+| Open-source, self-hosted monitoring | [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | Inspect license, provider costs, methodology, and security before deployment. |
+| Multi-engine enterprise monitoring | Profound, Semrush, Ahrefs, BrightEdge, seoClarity | Compare prompt methodology, geographic coverage, raw evidence, export, and retention. |
+| Mid-market monitoring | Peec AI, Otterly.AI, Scrunch AI, LLMrefs, Rankscale | Verify engines and prompt limits against your actual market. |
+| Technical discovery | Search Console, Bing Webmaster Tools, IndexNow, crawler logs | Establish crawl/index eligibility before buying visibility software. |
 
-### Technical Requirements for AI Search
+This project does not rank vendors and accepts no paid placement. See the full [tool directory and evaluation checklist](docs/tools.md).
 
-* **TTFB**: Under 200ms for AI crawlers
-* **Robots.txt**: Allow GPTBot, ClaudeBot, PerplexityBot
-* **llms.txt**: Implement structured file for AI indexing
-* **Meta Descriptions**: Include direct answers (key information)
-* **URL Structure**: Use descriptive, keyword-rich slugs
+## Practical baseline
 
----
+1. Make important pages crawlable, indexable, internally linked, canonical, fast enough to use, and available as text.
+2. Publish original information: direct experience, primary data, clear methodology, named authors, and dated updates.
+3. Make claims easy to verify with source links, definitions, tables, examples, and meaningful context.
+4. Keep entity facts consistent across your site, profiles, product feeds, knowledge bases, and trusted third parties.
+5. Use schema only when it matches visible content and a supported vocabulary; never use it to invent facts.
+6. Measure each engine separately with a stable prompt set, repeated runs, raw answer capture, and business outcomes.
+7. Treat synthetic mentions, fake reviews, undisclosed promotion, and community spam as abuse—not GEO.
 
-## Contributing
+The [playbook](docs/playbook.md) turns this baseline into a 30/60/90-day program.
 
-Contributions are welcome! Please read the [contribution guidelines](https://www.google.com/search?q=CONTRIBUTING.md) first.
+## Evidence policy
 
-### How to Contribute
+Every submission should identify its evidence class:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b add-new-resource`)
-3. Add your resource in the appropriate section
-4. Commit your changes (`git commit -am 'Add awesome resource'`)
-5. Push to the branch (`git push origin add-new-resource`)
-6. Create a Pull Request
+- **Official** — Platform, standards body, regulator, or product owner.
+- **Peer-reviewed** — Published academic work with venue and date.
+- **Preprint** — Research not yet established by peer review.
+- **Independent study** — Reproducible methodology and disclosed sample.
+- **Vendor report** — Useful but commercially interested.
+- **Community discussion** — Practitioner experience, hypothesis, or debate.
 
----
+Popularity is not proof. A resource can be popular and still be misleading; an official statement can be limited to one platform. We preserve both the source and its scope.
 
-## 🚀 Ready to Dominate AI Search?
+## Community
 
-<p align="center">
-<a href="[https://tenten.co](https://tenten.co)">
-<img src="[https://tenten.co/images/tenten-logo.svg](https://tenten.co/images/tenten-logo.svg)" alt="Tenten" width="200"/>
-</a>
-</p>
+- Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a resource.
+- Use the resource suggestion issue form for additions and corrections.
+- Read [GOVERNANCE.md](GOVERNANCE.md) for maintainer responsibilities and transparent decision rules.
+- Follow the [Code of Conduct](CODE_OF_CONDUCT.md) and report security issues through [SECURITY.md](SECURITY.md).
+- Commercial tools are welcome when relevant, clearly disclosed, and described neutrally. Paid placement is not accepted.
 
-### Transform Your Brand's AI Visibility with Asia's Leading Digital Agency
+## License
 
-In the era of generative search, **if your brand isn't being discovered and cited by AI, it's essentially invisible**. **[Tenten](https://tenten.co)** helps you become the standard answer.
-
-#### 🎯 Why Choose Tenten?
-
-| What We Offer | What You Get |
-| --- | --- |
-| **GEO & AI SEO Strategy** | Get cited by ChatGPT, Perplexity, Google AI Overviews, and more |
-| **Shopify Plus & Headless Commerce** | Enterprise-grade e-commerce with lightning-fast performance |
-| **AI Consulting & Integration** | Custom AI solutions for business growth |
-| **Content Marketing & B2B ABM** | Strategic content that ranks in both traditional and AI search |
-
-#### 💼 Our Expertise
-
-* **10+ years** of digital transformation experience
-* **Pioneers in GEO, AI SEO, and headless commerce** in Asia
-* **Award-winning** design and development team
-
-#### 📈 Let's Grow Together
-
-Ready to make your brand the **standard answer in AI responses**?
-
-<p align="center">
-<a href="[https://tenten.co/contact](https://tenten.co/contact)">
-<strong>👉 Book Your Free Consultation Today</strong>
-</a>
-</p>
-
-<p align="center">
-<a href="[https://tenten.co](https://tenten.co)">Website</a> •
-<a href="[https://tenten.co/learning](https://tenten.co/learning)">Learning Hub</a> •
-<a href="[https://geo.tenten.co](https://geo.tenten.co)">GEO Resources</a>
-</p>
-
-<p align="center">
-<sub>Tenten — AI-First Agency | Taipei, Taiwan 🇹🇼</sub>
-</p>
+To maximize reuse, this curated collection is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). Linked resources retain their original copyrights and licenses.

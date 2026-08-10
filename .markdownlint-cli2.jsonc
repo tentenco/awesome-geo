@@ -1,0 +1,7 @@
+{
+  "config": {
+    "MD012": { "maximum": 2 },
+    "MD013": false
+  }
+}
+
