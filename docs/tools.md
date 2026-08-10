@@ -1,5 +1,4 @@
 # GEO/AEO tools and ecosystem
-- [Corank](https://corank.ai/) — AI visibility audits and recurring monitoring across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews, with source-role analysis and action recommendations.
 
 Last reviewed: 2026-08-10
 
@@ -47,6 +46,7 @@ See the full [measurement framework](measurement.md#vendor-evaluation-questions)
 - [Scrunch AI](https://scrunch.ai/) — Brand visibility plus content/agent experience workflows.
 - [LLMrefs](https://llmrefs.com/) — AI visibility and keyword/prompt tracking.
 - [Rankscale](https://rankscale.ai/) — Multi-engine brand monitoring and analytics.
+- [Corank](https://corank.ai/) — AI visibility audits and recurring monitoring across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews, with source-role analysis and action recommendations.
 - [AthenaHQ](https://www.athenahq.ai/) — AI-search monitoring, prompt research, and optimization workflows.
 - [Writesonic GEO](https://writesonic.com/generative-engine-optimization-geo) — Monitoring and content workflow within the Writesonic platform.
 - [SE Ranking AI Search Toolkit](https://seranking.com/ai-search/) — AI visibility integrated with an SEO suite.
