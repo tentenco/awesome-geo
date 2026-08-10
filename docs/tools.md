@@ -1,4 +1,5 @@
 # GEO/AEO tools and ecosystem
+- [Corank](https://corank.ai/) — AI visibility audits and recurring monitoring across ChatGPT, Perplexity, Claude, Gemini, and Google AI Overviews, with source-role analysis and action recommendations.
 
 Last reviewed: 2026-08-10
 
