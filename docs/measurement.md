@@ -1,6 +1,6 @@
 # Measuring AI search visibility
 
-Last reviewed: 2026-08-10
+Last reviewed: 2026-09-09
 
 AI visibility is not a single rank. The same prompt can produce different sources across runs, models, dates, locations, accounts, and interface states. A defensible program measures a distribution and keeps the raw evidence.
 
@@ -68,6 +68,9 @@ A useful panel samples the customer journey:
 - **Task/agent:** “Find or prepare the next step for X,” only where the product supports it.
 
 Do not create a panel solely from prompts where the brand is already named; that measures answer representation, not unprompted discovery.
+
+- [SearchD's AI visibility measurement methodology](https://searchd.ai/how-it-works) — Practitioner example of buyer-question selection, per-engine brand mention tracking, and repeated baseline runs to estimate answer variability.
+  Evidence: vendor-authored guide. Publication date not stated; reviewed 2026-09-09. Limitations: describes a proposed service methodology, not an independent validation or measured client outcome.
 
 ## First-party reporting in 2026
 
