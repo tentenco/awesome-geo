@@ -45,6 +45,7 @@ See the full [measurement framework](measurement.md#vendor-evaluation-questions)
 - [Otterly.AI](https://otterly.ai/) — AI-search monitoring and citation tracking.
 - [Scrunch AI](https://scrunch.ai/) — Brand visibility plus content/agent experience workflows.
 - [LLMrefs](https://llmrefs.com/) — AI visibility and keyword/prompt tracking.
+- [LLM Pulse](https://llmpulse.ai/) — Tracks brand mentions, citations, sentiment, and share of voice in AI responses to synthetic prompts.
 - [Rankscale](https://rankscale.ai/) — Multi-engine brand monitoring and analytics.
 - [AthenaHQ](https://www.athenahq.ai/) — AI-search monitoring, prompt research, and optimization workflows.
 - [Writesonic GEO](https://writesonic.com/generative-engine-optimization-geo) — Monitoring and content workflow within the Writesonic platform.
