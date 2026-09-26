@@ -1,275 +1,133 @@
-# Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome GEO, AEO 및 AI 검색
 
-> AI 기반 검색 시대의 콘텐츠 최적화를 위해 설계된 생성형 엔진 최적화(GEO) 리소스, 도구, 기사 및 연구의 엄선된 목록입니다.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![CC0 1.0](https://img.shields.io/badge/license-CC0--1.0-blue.svg)](LICENSE)
+[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-생성형 엔진 최적화(GEO)는 AI 기반 검색 엔진과 생성형 AI 응답에서 더 나은 성능을 발휘하도록 콘텐츠와 웹사이트를 최적화하는 실무입니다. AI가 검색과 정보 검색에 점점 더 통합됨에 따라, GEO는 전통적인 검색 엔진 순위가 아닌 AI 생성 응답에서의 가시성에 초점을 맞춘 AI 시대의 전통적인 SEO의 진화를 나타냅니다.
+> 생성 엔진 최적화(GEO), 답변 엔진 최적화(AEO), AI 검색 가시성 및 오픈 웹을 위한 커뮤니티 중심의 근거 기반 가이드입니다.
 
-## 목차
+[English](README.md) · [繁體中文](README-zh-TW.md) · [简体中文](README-zh-CN.md) · [日本語](README-ja.md) · [العربية](README-ar.md)
 
-- [공식 리소스](#공식-리소스)
-- [도구](#도구)
-- [기사 및 가이드](#기사-및-가이드)
-- [연구 논문](#연구-논문)
-- [케이스 스터디](#케이스-스터디)
-- [커뮤니티](#커뮤니티)
-- [코스 및 학습](#코스-및-학습)
-- [도서 및 출판물](#도서-및-출판물)
-- [회의 및 이벤트](#회의-및-이벤트)
-- [데이터세트 및 벤치마크](#데이터세트-및-벤치마크)
-- [기여](#기여)
+최종 검토: **2026-08-10** · [2026년에 달라진 점](docs/2026-landscape.md)
 
-## 공식 리소스
+## 시작하기
 
-- [GEO: 생성형 엔진 최적화](https://generative-engines.com/GEO/) - 공식 연구 프로젝트 웹사이트
-- [GEO 연구 논문](https://arxiv.org/abs/2311.09735) - 생성형 엔진 최적화의 기초 학술 논문
-- [GEO-BENCH](https://generative-engines.com/GEO/) - 10K 쿼리를 포함한 GEO 평가 종합 벤치마크
-- [Google의 AI 생성 콘텐츠 가이드라인](https://developers.google.com/search/docs/essentials/ai-generated-content) - 공식 Google AI 콘텐츠 가이드라인
+- **처음 접하시나요?** [실무 플레이북](docs/playbook.md)을 읽어보세요.
+- **1차 출처가 필요한가요?** [공식 가이드](docs/official-guidance.md)를 확인하세요.
+- **소프트웨어를 선택 중인가요?** [도구와 생태계](docs/tools.md)를 비교하세요.
+- **보고 체계를 설계 중인가요?** [측정 프레임워크](docs/measurement.md)를 활용하세요.
+- **연구 근거를 추적하고 싶나요?** [연구 및 데이터셋](docs/research.md)을 살펴보세요.
+- **실무자 논쟁을 보고 싶나요?** [Reddit의 2026년 주요 토론](docs/reddit-2026.md)을 확인하세요.
 
-## 도구
+## 용어 정의
 
-### 콘텐츠 최적화 및 분석
-- [HubSpot의 AI 검색 채점기](https://www.hubspot.com/ai-search-grader) - 콘텐츠의 AI 검색 성능을 분석하는 무료 도구
-- [AI Page Ready](https://aipageready.com/) - 웹사이트 AI 준비도 종합 분석
-- [SEO.ai](https://seo.ai/) - AI 기반 SEO 작성 및 최적화 플랫폼
-- [Surfer SEO](https://surferseo.com/) - AI 기반 권장사항을 포함한 콘텐츠 최적화
-- [Jasper](https://www.jasper.ai/) - SEO 최적화 기능을 갖춘 AI 콘텐츠 생성
+업계에는 아직 안정된 단일 분류 체계가 없습니다. 이 프로젝트는 다음과 같은 실무 정의를 사용합니다.
 
-### GEO 전용 모니터링 도구
-- [Goodie AI](https://goodieai.com/) - AI 네이티브 GEO 모니터링 및 최적화 플랫폼
-- [Scrunch AI](https://scrunch.ai/) - 기업용 AI 검색 가시성 모니터링
-- [Peec AI](https://peec.ai/) - AI 가시성 메트릭 및 경쟁 벤치마킹
-- [Otterly AI](https://otterly.ai/) - AI 검색 모니터링 및 감정 분석
-- [Profound](https://profound.ai/) - 기업급 GEO 분석 및 최적화
-- [Athena HQ](https://athena-hq.com/) - AI 검색 가시성 플랫폼
+| 용어 | 실무 정의 | 주요 성과 |
+| --- | --- | --- |
+| **GEO** | 생성된 답변에서 출처나 개체가 검색, 사용, 표현 또는 인용될 가능성을 개선하는 활동. | 인용, 언급, 정확한 표현 |
+| **AEO** | 답변 상자, 어시스턴트, 생성형 검색처럼 직접 답변을 제공하는 시스템이 콘텐츠를 유용하게 활용하도록 만드는 활동. | 답변 포함 및 품질 |
+| **AI 검색 가시성** | AI Overviews, AI Mode, ChatGPT, Copilot, Perplexity, Claude, Gemini 등을 아우르는 측정 분야. | 가시성, 점유율, 감성, 유입 |
+| **SEO** | 검색 엔진에서 발견, 색인, 표시 및 성과를 개선하는 활동. | 검색 가시성과 양질의 트래픽 |
 
-### AI 기능을 갖춘 전통적인 SEO 도구
-- [Semrush](https://www.semrush.com/) - AI 개요 추적을 포함한 종합 SEO 도구킷
-- [Ahrefs](https://ahrefs.com/) - Brand Radar AI 언급 기능을 갖춘 SEO 도구
-- [Zapier](https://zapier.com/) - AI 기반 SEO 워크플로우를 위한 자동화 플랫폼
+이러한 실무는 서로 겹칩니다. Google은 기존 SEO 기본 원칙이 AI Overviews와 AI Mode에도 적용되며 특별한 추가 기술 요건이 없다고 명시합니다. 다른 답변 엔진은 서로 다른 크롤러, 색인, 인터페이스, 보고 체계를 사용하므로 운영 세부 사항을 별도로 평가해야 합니다.
 
-### AI 콘텐츠 생성
-- [ChatGPT](https://chat.openai.com/) - 콘텐츠 생성 및 최적화를 위한 주요 AI 어시스턴트
-- [Google Gemini](https://bard.google.com/) - 검색 통합을 갖춘 Google의 AI 어시스턴트
-- [Shopify Magic](https://www.shopify.com/magic) - 전자상거래 콘텐츠 최적화 AI 어시스턴트
-- [Ink](https://inkforall.com/) - SEO 가드레일을 갖춘 AI 콘텐츠 마케팅
+## 2026: 과장이 아닌 중요한 신호
 
-## 기사 및 가이드
+2026년에 처음 공개된 가장 중요한 변화는 다음과 같습니다.
 
-### 종합 가이드
-- [생성형 엔진 최적화: 현재까지 우리가 알고 있는 것](https://blog.hubspot.com/marketing/generative-engine-optimization) - HubSpot의 GEO 종합 가이드
-- [9가지 최고의 생성형 엔진 최적화(GEO) 도구](https://nogood.io/2025/04/05/generative-engine-optimization-tools/) - 도구 비교 및 선택 가이드
-- [AI 우선 SEO 완전 가이드](https://apimagic.ai/blog/generative-engine-optimization-guide-seo-to-geo) - 기술 구현 가이드
-- [생성형 엔진 최적화(GEO): 2025년에 알아야 할 것](https://www.walkersands.com/about/blog/generative-engine-optimization-geo-what-to-know-in-2025/) - 비즈니스 전략 개요
+- **Google은 2026-05-15에 생성형 AI 검색 전용 가이드를 발표했습니다.** Query fan-out, 비범용 콘텐츠, 멀티미디어와 지역 정보, AI agents, GEO/AEO 오해를 다룹니다. [공식 가이드](https://developers.google.com/search/docs/appearance/ai-features) · [발표](https://developers.google.com/search/blog/2026/05/a-new-resource-for-optimizing)
+- **Google Search Console은 2026-06-03에 Generative AI performance reports를 도입했습니다.** 초기에는 일부 사이트에 제공되며 생성형 AI 기능의 노출, 페이지, 국가, 기기, 시간 추이를 보여줍니다. [발표](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports)
+- **Bing Webmaster Tools는 2026-02-10에 AI Performance public preview를 출시했습니다.** Microsoft AI 경험에서 총 인용, 인용된 페이지, grounding queries 및 추이를 제공합니다. [발표](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview)
+- **측정 자체가 연구 문제가 되었습니다.** AI 답변은 확률적으로 달라지므로 한 번의 프롬프트 캡처가 아니라 반복 실행과 분포로 측정해야 한다는 연구가 나왔습니다. [Don't Measure Once](https://arxiv.org/abs/2604.07585) · [2023–2026 비판적 조사](https://arxiv.org/abs/2607.14035)
+- **제품 범주는 모니터링에서 워크플로와 agents로 이동했습니다.** Amplitude AI Visibility 확장, Onclusive GEO Analytics, Jasper GEO Agent 등이 있습니다. 이는 공급업체의 주장이지 독립적인 효과 증명은 아닙니다. [생태계 상세 정보](docs/tools.md#verified-2026-launches-and-major-updates)
 
-### 구현 전략
-- [Google Bard와 ChatGPT를 SEO에 사용하는 방법](https://www.boostability.com/content/how-to-use-google-bard-chatgpt-for-seo/) - 실용적인 AI SEO 적용
-- [Google Bard SEO - 주요 결과 최적화 방법](https://seo.ai/blog/google-bard-seo) - Bard 특화 최적화 기법
-- [최고의 AI SEO 도구](https://www.shopify.com/blog/ai-seo-tools) - 전자상거래 중심의 AI SEO 전략
+전체 일정과 출처는 [2026년 환경 및 변경 기록](docs/2026-landscape.md)을 참고하세요.
 
-### 기술 구현
-- [AI 모드 최적화 가이드](https://nogood.io/blog/ai-mode-optimization-guide/) - Google AI 검색 최적화 전략
-- [답변 엔진 최적화 성능 측정 방법](https://nogood.io/blog/how-to-measure-performance-of-answer-engine-optimization-aeo/) - GEO 분석 및 측정
+## 공식 플랫폼 자료
 
-## 연구 논문
+### Google 검색
 
-### 기초 연구
-- [GEO: 생성형 엔진 최적화](https://arxiv.org/abs/2311.09735) - GEO 프레임워크를 정의한 원본 학술 논문
-- [AI 검색 행동 이해](https://generative-engines.com/GEO/) - AI 엔진 콘텐츠 처리 연구
-- [검색의 미래: AI 기반 발견](https://www.harvard.edu/business-review) - 하버드 비즈니스 리뷰 분석
+- [AI 기능과 웹사이트](https://developers.google.com/search/docs/appearance/ai-features) — 자격 요건, query fan-out, 제어, 측정 및 오해 바로잡기.
+- [검색 문서 업데이트](https://developers.google.com/search/updates) — 날짜가 표시된 공식 변경 기록과 RSS.
+- [Google 검색 필수 요소](https://developers.google.com/search/docs/essentials) — 기술 요건, 스팸 정책, 핵심 모범 사례.
+- [유용하고 신뢰할 수 있는 사람 중심 콘텐츠](https://developers.google.com/search/docs/fundamentals/creating-helpful-content) — Google의 콘텐츠 품질 지침.
+- [구조화된 데이터 소개](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) — 표시 콘텐츠와 일치하는 지원 마크업을 사용하세요. 구조화된 데이터는 GEO 성과를 보장하지 않습니다.
+- [Google 크롤러 및 가져오기 도구](https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers) — `Google-Extended`를 포함한 user agent와 크롤 제어.
 
-### 학술 연구
-- [대형 언어 모델을 위한 AI 콘텐츠 최적화](https://arxiv.org/abs/2311.09735) - 기술 최적화 전략
-- [검색에서의 대화형 AI: 콘텐츠 발견에 미치는 영향](https://www.researchgate.net/) - 사용자 행동 분석
-- [AI 생성 응답에서의 브랜드 인식](https://www.nature.com/) - 브랜드 가시성 연구
+### Microsoft와 Bing
 
-## 케이스 스터디
+- [Bing Webmaster Tools AI Performance](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview) — 2026년에 도입된 퍼스트파티 인용 보고서.
+- [색인의 역할 변화](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers) — 페이지 순위와 답변 grounding의 차이에 대한 Microsoft의 설명.
+- [IndexNow](https://www.indexnow.org/) — 참여 검색 엔진에 URL 변경을 알리는 개방형 프로토콜.
+- [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) — 크롤링, 색인 및 품질에 관한 핵심 지침.
 
-### 실제 구현 사례
-- [Canada Goose: AI 브랜드 모니터링 성공 사례](https://nogood.io/case-studies/) - AI 응답에서의 브랜드 인식 관리
-- [전자상거래 GEO: 40% 가시성 증가](https://generative-engines.com/GEO/) - 문서화된 성능 개선
-- [지역 비즈니스 AI 검색 최적화](https://www.hubspot.com/case-studies/) - 중소기업 GEO 구현
-- [SaaS 회사 AI 콘텐츠 전략](https://www.walkersands.com/case-studies/) - B2B GEO 최적화
+### OpenAI 및 기타 답변 엔진
 
-### 성능 지표
-- [GEO 구현 결과: 300% AI 검색 가시성](https://www.linkedin.com/pulse/) - 정량화된 GEO 성공 지표
-- [전통적인 SEO vs GEO 성능 비교](https://nogood.io/blog/) - 비교 분석 연구
+- [OpenAI 게시자 FAQ](https://help.openai.com/en/articles/12627856) — `OAI-SearchBot`, `noindex`, 포함, 인용 및 추천 트래픽 추적.
+- [OpenAI 크롤러 문서](https://platform.openai.com/docs/bots) — 검색, 사용자 요청 및 학습 관련 user agent 구분.
+- [Anthropic 웹 크롤러](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) — Anthropic의 공식 크롤 제어.
+- [Perplexity 크롤러 문서](https://docs.perplexity.ai/guides/bots) — 공식 user agent 및 robots 지침.
+
+크롤러 제어 표와 플랫폼 간에 일반화할 수 없는 주장에 대해서는 [공식 가이드](docs/official-guidance.md)를 참고하세요.
+
+## 핵심 연구
+
+- [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) — KDD 2024의 기초 논문으로 GEO-Bench와 가시성 개입 실험을 소개합니다.
+- [GEO 프로젝트와 벤치마크](https://generative-engines.com/GEO/) — 프로젝트 사이트, 데이터, 코드 및 벤치마크 배경.
+- [Don't Measure Once](https://arxiv.org/abs/2604.07585) — 확률적 출력에서 반복 측정을 다룬 2026년 프리프린트.
+- [생성 엔진 가시성에 대한 비판적 조사(2023–2026)](https://arxiv.org/abs/2607.14035) — 용어, 지표, 근거, 위험, 재현성을 검토한 2026년 프리프린트.
+- [AgenticGEO](https://arxiv.org/abs/2603.20213) — Agentic 최적화 시스템을 제안한 2026년 프리프린트.
+- [Pinterest acquisition growth를 위한 GEO 프레임워크](https://arxiv.org/abs/2602.02961) — 2026년 VLM／agent 응용 연구로, 특정 영역의 결과를 신중하게 해석해야 합니다.
+
+프리프린트는 명확히 표시하며 플랫폼의 보장으로 간주해서는 안 됩니다. 자세한 내용은 [연구 및 데이터셋](docs/research.md)을 참고하세요.
+
+## 도구 지도
+
+| 필요 사항 | 시작 도구 | 참고 사항 |
+| --- | --- | --- |
+| Google AI 기능 가시성 | [Google Search Console](https://search.google.com/search-console/about) | 퍼스트파티. 검토 시점에 생성형 AI 보고서는 제한적으로 제공됩니다. |
+| Microsoft AI 인용 | [Bing Webmaster Tools](https://www.bing.com/webmasters/about) | 퍼스트파티 AI Performance public preview. |
+| 오픈소스 자체 호스팅 모니터링 | [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | 배포 전 라이선스, API 비용, 방법론, 보안을 검토하세요. |
+| 다중 엔진 기업 모니터링 | Profound, Semrush, Ahrefs, BrightEdge, seoClarity | 프롬프트 방법, 지역 범위, 원시 증거, 내보내기, 보존 정책을 비교하세요. |
+| 중견 팀 모니터링 | Peec AI, Otterly.AI, Scrunch AI, LLMrefs, Rankscale | 실제 시장에 맞는 엔진과 프롬프트 한도를 확인하세요. |
+| 기술적 발견 | Search Console, Bing Webmaster Tools, IndexNow, 크롤러 로그 | 가시성 소프트웨어를 구매하기 전에 크롤링과 색인 자격을 확립하세요. |
+
+이 프로젝트는 공급업체 순위를 매기거나 유료 게재를 받지 않습니다. [도구 목록 및 평가 체크리스트](docs/tools.md)를 참고하세요.
+
+## 실무 기준선
+
+1. 중요 페이지가 크롤링 및 색인 가능하고 내부 링크, canonical, 사용 경험, 텍스트 형태의 핵심 정보를 갖추도록 합니다.
+2. 직접 경험, 원본 데이터, 명확한 방법, 저자명, 업데이트 날짜가 있는 독창적인 정보를 게시합니다.
+3. 출처 링크, 정의, 표, 예시 및 필요한 맥락을 제공하여 주장을 검증하기 쉽게 만듭니다.
+4. 사이트, 프로필, 제품 feed, 지식 베이스 및 신뢰할 수 있는 제3자에서 개체 정보를 일관되게 유지합니다.
+5. Schema는 표시 콘텐츠와 일치해야 하며 구조화된 데이터로 사실을 만들어서는 안 됩니다.
+6. 엔진별로 고정된 프롬프트 세트, 반복 실행, 원시 답변 저장, 비즈니스 성과 연결을 수행합니다.
+7. 조작된 언급, 가짜 리뷰, 미공개 홍보, 커뮤니티 스팸은 GEO가 아니라 남용입니다.
+
+[실무 플레이북](docs/playbook.md)은 이 기준선을 30／60／90일 프로그램으로 전환합니다.
+
+## 근거 정책
+
+모든 제출물은 다음 근거 유형을 명시해야 합니다.
+
+- **공식** — 플랫폼, 표준 기구, 규제 기관 또는 제품 소유자.
+- **동료 심사** — 발표 장소와 날짜가 있는 출판된 학술 연구.
+- **프리프린트** — 동료 심사를 통해 확립되지 않은 연구.
+- **독립 연구** — 재현 가능한 방법과 공개된 표본.
+- **공급업체 보고서** — 유용할 수 있지만 상업적 이해관계가 있는 자료.
+- **커뮤니티 토론** — 실무 경험, 가설 또는 논쟁.
+
+인기는 증거가 아닙니다. 인기 있는 자료도 오해를 불러올 수 있고 공식 발표도 특정 플랫폼에만 적용될 수 있습니다. 우리는 출처와 적용 범위를 모두 보존합니다.
 
 ## 커뮤니티
 
-### 전문가 네트워크
-- [LinkedIn의 GEO 커뮤니티](https://www.linkedin.com/groups/) - 전문 GEO 실무자 네트워크
-- [AI 검색 최적화 Reddit](https://reddit.com/r/SEO) - AI SEO 커뮤니티 토론
-- [GEO Slack 워크스페이스](https://seo-community.slack.com/) - 실시간 GEO 토론
-
-### 소셜 미디어 그룹
-- [Facebook AI SEO 커뮤니티](https://www.facebook.com/groups/aiseo) - AI SEO 실무자를 위한 Facebook 그룹
-- [Twitter AI SEO 목록](https://twitter.com/i/lists/ai-seo-experts) - 엄선된 GEO 전문가 목록
-- [Discord AI 최적화 서버](https://discord.gg/ai-seo) - 실시간 커뮤니티 지원
-
-### 포럼 및 토론
-- [Webmaster World AI 포럼](https://www.webmasterworld.com/) - 기술적인 AI SEO 토론
-- [Search Engine Land 커뮤니티](https://searchengineland.com/) - 업계 뉴스 및 토론
-- [Moz 커뮤니티 AI 주제](https://moz.com/community) - AI 중심의 SEO 커뮤니티
-
-## 코스 및 학습
-
-### 온라인 코스
-- [AI 검색 및 답변 엔진 최적화 코스](https://maven.com/nogood/ai-search-optimization) - NoGood의 종합 GEO 교육
-- [HubSpot 아카데미: 마케팅에서의 AI](https://academy.hubspot.com/) - 무료 AI 마케팅 코스
-- [Coursera: SEO 전문가를 위한 AI](https://www.coursera.org/learn/ai-seo) - 대학 수준의 AI SEO 교육
-
-### 인증
-- [Google AI 마케팅 인증](https://grow.google/certificates/) - 공식 Google AI 마케팅 인증
-- [Microsoft AI 기초](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-fundamentals/) - AI 기술 기초
-- [Semrush AI SEO 인증](https://www.semrush.com/academy/) - 플랫폼별 AI SEO 교육
-
-### 워크샵 및 튜토리얼
-- [YouTube: AI SEO 마스터클래스](https://www.youtube.com/results?search_query=ai+seo+masterclass) - 무료 비디오 튜토리얼
-- [웨비나 시리즈: GEO 구현](https://www.hubspot.com/webinars) - 라이브 학습 세션
-- [대화형 GEO 실습](https://generative-engines.com/GEO/) - 실습 GEO 실험
-
-## 도서 및 출판물
-
-### 업계 출판물
-- [AI 우선 마케팅 혁명](https://www.amazon.com/AI-First-Marketing-Revolution) - AI 마케팅 전략 가이드
-- [콘텐츠 크리에이터를 위한 생성형 AI](https://www.oreilly.com/library/view/generative-ai-for/9781098150822/) - 기술 구현 가이드
-- [검색의 미래: AI와 그 너머](https://www.wiley.com/en-us/The+Future+of+Search) - 업계 분석 및 예측
-
-### 연구 컬렉션
-- [하버드 비즈니스 리뷰: 마케팅에서의 AI 컬렉션](https://hbr.org/topic/artificial-intelligence) - 전략적 비즈니스 관점
-- [MIT 기술 리뷰: AI 검색](https://www.technologyreview.com/topic/artificial-intelligence/) - 기술 연구 통찰
-- [Wired: 검색의 미래](https://www.wired.com/tag/search/) - 업계 트렌드 분석
-
-## 회의 및 이벤트
-
-### 주요 회의
-- [SearchLove](https://searchlove.org/) - AI 트랙을 포함한 최고의 검색 마케팅 컨퍼런스
-- [MozCon](https://moz.com/mozcon) - AI 및 GEO 세션을 포함한 SEO 컨퍼런스
-- [SMX (검색 마케팅 엑스포)](https://smx.searchengineland.com/) - AI 중심의 검색 마케팅
-- [BrightonSEO](https://www.brightonseo.com/) - AI 콘텐츠를 포함한 국제 SEO 컨퍼런스
-
-### AI 전문 이벤트
-- [AI 서밋](https://theaisummit.com/) - 기업 AI 구현 컨퍼런스
-- [AI 마케팅 컨퍼런스](https://aimarketingconference.com/) - 마케팅 중심의 AI 이벤트
-- [Google I/O](https://io.google/) - AI 검색 업데이트를 포함한 Google의 개발자 컨퍼런스
-- [Microsoft Build](https://mybuild.microsoft.com/) - AI 도구를 포함한 Microsoft의 개발자 컨퍼런스
-
-### 가상 이벤트
-- [GEO 가상 서밋](https://generative-engines.com/events/) - 전용 GEO 컨퍼런스
-- [AI SEO 웨비나 시리즈](https://www.hubspot.com/ai-seo-webinars) - 정기 온라인 학습 세션
-- [Search Engine Land Live](https://searchengineland.com/live) - 라이브 스트리밍 SEO 이벤트
-
-## 데이터세트 및 벤치마크
-
-### 연구 데이터세트
-- [GEO-BENCH](https://generative-engines.com/GEO/) - GEO 평가를 위한 10K 쿼리 벤치마크
-- [AI 검색 쿼리 데이터세트](https://huggingface.co/datasets/ai-search-queries) - 대규모 AI 검색 행동 데이터
-- [AI 엔진에서의 콘텐츠 성능](https://github.com/princeton-nlp/GEO) - AI 콘텐츠 가시성 추적 데이터
-
-### 평가 프레임워크
-- [GEO 평가 지표](https://arxiv.org/abs/2311.09735) - 표준화된 GEO 성능 측정
-- [AI 검색 가시성 벤치마크](https://ai-search-benchmark.com/) - 크로스 플랫폼 AI 검색 비교
-- [브랜드 언급 추적 데이터세트](https://brand-ai-mentions.github.io/) - AI 브랜드 가시성 연구 데이터
-
-### 공개 리더보드
-- [GEO-BENCH 리더보드](https://generative-engines.com/GEO/) - 경쟁적인 GEO 방법 비교
-- [AI SEO 성능 순위](https://ai-seo-leaderboard.com/) - 도구 및 기법 성능 순위
-- [도메인 간 GEO 결과](https://github.com/princeton-nlp/GEO/) - 도메인별 최적화 결과
-
-## 기여
-
-기여를 환영합니다! 먼저 [기여 가이드라인](CONTRIBUTING.md)을 읽어주세요.
-
-- 누락되거나 부정확한 내용을 발견하면 이슈를 열어주세요
-- 제안사항에 대한 풀 리퀘스트를 제출해주세요
-- 기존 항목의 형식과 스타일을 따라주세요
-- 해당 리소스가 포함되어야 하는 이유에 대한 간단한 설명을 제공해주세요
-- 모든 링크가 작동하고 관련된 고품질 콘텐츠로 연결되는지 확인해주세요
-
-### 기여 가이드라인
-
-1. **양보다 질**: 고품질의 관련 리소스만 제출
-2. **분류**: 가장 적절한 카테고리에 리소스 배치
-3. **설명**: 명확하고 간결한 설명 제공
-4. **링크**: 모든 링크가 작동하고 올바른 콘텐츠로 연결되는지 확인
-5. **형식**: 기존 마크다운 형식 스타일 준수
-
-#### Tenten의 GEO 및 AI SEO 인사이트
-
-- [GEO - Tenten AI: 인공지능의 무한한 가능성 탐구, 기술 뉴스 심층 분석](https://tenten.co/learning/tag/geo/)
-- [생성형 엔진 최적화 (GEO): 기업급 완전 가이드](https://tenten.co/learning/geo-guide/)
-- [a16z의 GEO 보고서: SEO는 죽었다, 생성형 엔진 최적화 SEO가 검색을 재정의](https://tenten.co/learning/a16z-geo-report-seo-is-dead/)
-- [오래된 SEO 게임 규칙을 잊어라. AI SEO 시대, 이것이 당신이 이기는 8가지 새로운 키](https://tenten.co/learning/ai-seo/)
-- [ChatGPT 검색이 무료가 되어 사용자는 등록 없이 사용 가능](https://tenten.co/learning/chatgpt-search-now-free/)
-- [콘텐츠 마케팅이란? (2025 새로 추가된 AI 콘텐츠 마케팅 도구)](https://tenten.co/learning/content-marketing-ultimate-guide/)
-- [전통적인 검색 최적화 (SEO) VS. 생성형 검색 최적화 (GEO)](https://tenten.co/learning/seo-vs-geo/)
-- [ChatGPT, Gemini, Perplexity가 당신의 웹사이트를 인식하게 하기: 생성형 검색 최적화 가이드](https://tenten.co/learning/how-to-indexed-in-chatgpt-gemini-perplexity/)
-- [기술적 SEO: 고품질 웹사이트 구축하여 검색 엔진 순위 향상](https://tenten.co/learning/technical-seo-ultimate-guide/)
-- [Google 검색 순위 알고리즘 유출: 2025 SEO 순위 키 해독](https://tenten.co/learning/best-tactic-2025-for-google-seo-leak/)
-- [최고의 웹 디자인 회사: 선택하는 방법](https://tenten.co/learning/how-to-choose-best-web-design-agency/)
-- [RAG: 대형 언어 모델의 정확성과 즉시성을 향상시키는 핵심 프레임워크](https://tenten.co/learning/what-is-rag/)
-- [Perplexity 새 기능 완전 공략: 입문부터 고급까지](https://tenten.co/learning/perplexity-guide-2025/)
-- [Perplexity AI를 사용하여 기사 작성하는 방법](https://tenten.co/learning/perplexity-seo-how-to/)
-- [생성 엔진 최적화(GEO)란 무엇인가?](https://tenten.co/learning/what-is-geo/)
-- [Google의 SGE란 무엇인가? 생성 검색 경험 설명](https://tenten.co/learning/what-is-sge-google/)
-- [검색 프레임워크를 깨뜨려라! Perplexity AI: 당신의 초지능 지식 엔진](https://tenten.co/learning/what-is-perplexity-ai-how-it-works/)
-- [AI SEO - Tenten AI: 인공지능의 무한한 가능성 탐구, 기술 뉴스 심층 분석](https://tenten.co/learning/tag/ai-seo/)
-- [2025년 SEO의 대변혁에 준비되었는가?](https://tenten.co/learning/seo-changes-2025/)
-- [AI SEO 충격탄: Manus AI가 우리의 일하는 방식을 재정의하는 방법](https://tenten.co/learning/manus-ai-seo/)
-- [Nofollow Link (rel=nofollow) 완전 가이드](https://tenten.co/learning/nofollow-link/)
-- [당신의 웹사이트를 AI 연구 도구에 더 친화적으로 만들기: 완전 최적화 가이드](https://tenten.co/learning/ai-friendly-website/)
-- [SEO 링크 최적화: 고권중 웹사이트 플랫폼을 활용하여 DA를 향상시키는 실전 가이드](https://tenten.co/learning/seo-link-building-with-high-da-site/)
-- [웹사이트 권위의 진실: DA와 PA, 당신의 SEO 비밀 무기 – 완전 가이드](https://tenten.co/learning/domain-authority-and-page-authority/)
-- [Naver Blog 마케팅 완전 가이드: 한국 시장을 여는 열쇠](https://tenten.co/learning/naver-blog-marketing/)
-- [B2B SEO 완전 가이드: 2025년 성공의 핵심 전략](https://tenten.co/learning/b2b-seo-the-ultimate-guide/)
-- [롱테일 키워드: SEO의 숨겨진 보물 발견](https://tenten.co/learning/long-tail-keywords/)
-- [AnswerThePublic 심층 평가: 검색 의도를 파헤치는 필수 도구](https://tenten.co/learning/answerthepublic-review/)
-- [YMYL 콘텐츠가 있나요? 이것은 Google이 웹사이트 품질을 판단하는 비밀 무기](https://tenten.co/learning/what-is-google-ymyl/)
-- [Google 순위의 비밀은 그것? NavBoost를 이해하자!](https://tenten.co/learning/navboost/)
-- [AI SEO 이렇게 사용: 19가지 비기 대공개! 🤫 효율 효과 직접 GET!](https://tenten.co/learning/19-ai-seo-tips/)
-- [2025년의 마케팅 게임이 바뀌었다: 1억 달러 가치의 승리 공식](https://tenten.co/learning/marketing-strategy-2025/)
-- [SEO 대신 Neil Patel의 신비한 베일을 벗기다: 그는 어떻게 성공적인 디지털 기업을 구축했는가?](https://tenten.co/learning/who-is-neil-patel/)
-- [SEO가 죽었다에서 AI SEO 포용까지](https://tenten.co/learning/how-tenten-embrace-ai-seo/)
-- [웹사이트 이전으로 붕괴하지 않기: 이렇게 하면 맞다! (가이드+지뢰 회피)](https://tenten.co/learning/site-migration-checklist/)
-- [Google 인기 키워드 도구 탐구: 검색 의도를 통찰하는 예술](https://tenten.co/learning/google-search-popular-keywords/)
-- [SEO 트래픽 암호: 롱테일 키워드 초강 공략](https://tenten.co/learning/long-tail-seo-keywords/)
-- [웹사이트 권위도(Domain Rating) 향상시키는 방법](https://tenten.co/learning/ai-seo-increase-domain-rating/)
-- [더 이상 SEO를 추측하지 마라! Google 알고리즘 유출: E-E-A-T가 왕도!](https://tenten.co/learning/what-is-e-e-a-t/)
-- [최고의 AI 글쓰기 플로우: AI SEO 전문가가 Google 첫 페이지 기사 만드는 법을 가르친다](https://tenten.co/learning/ai-seo-tips/)
-- [AI 주도의 SEO 혁명: 생성형 검색 시대의 AI 마케팅 전략](https://tenten.co/learning/ai-seo-strategy/)
-- [SEO는 아직 죽지 않았다! 하지만 검색 엔진 최적화는 진화하고 있다: 2025년 새 전략](https://tenten.co/learning/is-seo-dead-and-why/)
-- [HubSpot의 SEO 참극: 10개월 내 트래픽 80% 증발](https://tenten.co/learning/hubspot-seo-traffic-drop-80-percent/)
-- [AI 검색 경험 부상: 전통적인 SEO는 죽었나?](https://tenten.co/learning/seo-is-dying-because-of-ai-search/)
-- [Google AI 모드: 전통적인 검색 경험을 완전히 뒤엎는가?](https://tenten.co/learning/google-ai-mode/)
-- [Cloudflare와 AI 크롤러: AI 검색 엔진에서 웹사이트 가시성 향상](https://tenten.co/learning/cloudflare-ai-seo-crawler-setting/)
-- [B2B ABM에서 이상적인 고객 프로필(ICP) 정의로 정밀 타겟팅 실현](https://tenten.co/learning/b2b-icp-ideal-customer-profile/)
-- [사용자 검색 의도? 정복하라! 🔥 2025 최신 공략, 콘텐츠를 직접 사용자 마음에 쓰기!](https://tenten.co/learning/what-is-search-intent/)
-
-## 소개
-
-**[Tenten.co](https://tenten.co)**에서 제작 및 유지관리 - AI 우선 제품 에이전시
-
-### 팔로우하기
-
-- 📱 Instagram: [@tenten.co](https://instagram.com/tenten.co)
-- 💼 LinkedIn: [Tenten.co](https://www.linkedin.com/company/tentenco)
-- 🧵 Threads: [@tenten.co](https://www.threads.net/@tenten.co)
-- 🐦 X (Twitter): [@tentencretaive](https://x.com/tentencretaive)
-
-### 우리의 미션
-
-검색의 미래는 AI 기반 발견에 있다고 믿습니다. 이 awesome 목록은 GEO 지식과 도구에 대한 접근을 민주화하여 콘텐츠 크리에이터, 마케터, 기업이 진화하는 검색 환경에 적응할 수 있도록 돕는 것을 목표로 합니다. 이러한 리소스를 공유함으로써 AI 우선 시대에 번영하는 커뮤니티를 구축하고 있습니다.
+- 리소스를 제안하기 전에 [기여 가이드](CONTRIBUTING.md)를 읽어주세요.
+- 추가 및 수정에는 리소스 제안 Issue 양식을 사용하세요.
+- 유지관리자의 책임과 투명한 결정 규칙은 [거버넌스](GOVERNANCE.md)를 참고하세요.
+- [행동 강령](CODE_OF_CONDUCT.md)을 준수하고 보안 문제는 [보안 정책](SECURITY.md)에 따라 신고하세요.
+- 관련성이 있고 관계를 공개하며 중립적으로 설명한 상용 도구도 환영합니다. 유료 게재는 허용하지 않습니다.
 
 ## 라이선스
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-법적으로 가능한 범위 내에서 Tenten.co는 이 작품에 대한 모든 저작권 및 관련 또는 인접 권리를 포기했습니다.
-
----
-
-## 면책 조항
-
-이 목록은 커뮤니티에서 유지관리되며 언급된 도구, 플랫폼 또는 회사에서 공식적으로 승인한 것은 아닙니다. 비즈니스 결정을 내리기 전에 항상 정보를 독립적으로 검증하고 특정 사용 사례에서 도구를 테스트하세요.
-
-마지막 업데이트: 2025년 1월 
+최대한 자유롭게 재사용할 수 있도록 이 큐레이션은 [CC0 1.0 Universal](LICENSE)에 따라 퍼블릭 도메인에 기여됩니다. 링크된 자료에는 원래의 저작권과 라이선스가 계속 적용됩니다.
