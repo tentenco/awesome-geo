@@ -1,6 +1,6 @@
 # GEO/AEO in 2026: verified landscape
 
-Status: living document · Snapshot: 2026-08-10 · Scope: items first published or materially launched in 2026
+Status: living document · Snapshot: 2026-10-07 · Scope: items first published or materially launched in 2026
 
 This page separates dated changes from evergreen advice. Inclusion means the event or publication is relevant and verifiable; it is not an endorsement.
 
@@ -66,6 +66,43 @@ Google's [documentation log](https://developers.google.com/search/updates) state
 
 **2026-07-29 — Google adds social/video analysis guidance**  
 Google's [documentation log](https://developers.google.com/search/updates) records a new Search Console guide for analyzing social and video platform content. This matters because discovery is increasingly cross-surface. Evidence class: official.
+
+### September
+
+**2026-09-02 — Per-engine citation leaders synthesized from Ahrefs Brand Radar**  
+[Third-party synthesis](https://netcontentseo.com/article/there-is-no-single-ai-citation-strategy-reddit-leads-four-engines-youtube-leads-ai-overviews-and-amazon-dominates-copilot-1000) of Ahrefs data (3M+ US queries per engine): YouTube leads AI Overviews (22.9%), Reddit leads AI Mode/Gemini/ChatGPT/Perplexity, Amazon tops Copilot. Evidence class: vendor-data synthesis. Limitation: secondary synthesis; verify query sets before quoting shares.
+
+**2026-09-14 — open-geo: self-described "Lighthouse for GEO"**  
+[open-geo](https://github.com/geofn-com/open-geo) ships an `llms.txt` generator/doctor, MCP server, and TypeScript CLI for audits. Evidence class: community. Limitation: new open-source project; audit scoring unaudited.
+
+**2026-09-15 — Cloudflare change shifts AI crawler behavior**  
+[Semrush analysis](https://www.semrush.com/blog/cloudfare-blocks-ai-training/) of 1,046 sites reports higher training-crawler refusals (ClaudeBot 19.9→22.8%, GPTBot 18.9→22.0%) and sharp drops for search crawlers (OAI-SearchBot 16.9→3.0%, Perplexity-User 14.9→2.2%). Evidence class: vendor/secondary. Limitation: validate bot classifications in server logs.
+
+**2026-09-15 — depra.ai: `llms.txt` shows no citation influence**  
+[Study mirror](https://dev.to/ifham_baig_2d0ab31dae97b3/what-is-llmstxt-and-does-it-work-1k49) finds 53% of cited sites in an India-shopping sample had an `llms.txt` but no evidence any major engine uses it for citation decisions. Evidence class: independent. Limitation: market-specific sample, not a causal test.
+
+**2026-09-22 — nevoai-geo-platform adds China-engine tracking**  
+[nevoai-geo-platform](https://github.com/kwdos/nevoai-geo-platform) tracks DeepSeek, Doubao, Yuanbao, and ERNIE citations plus share of voice. Evidence class: community. Limitation: new project; data quality unaudited.
+
+**2026-09-29 — AthenaHQ: average brand invisible in 84% of AI-search responses**  
+[State of AI Search 2026](https://www.globenewswire.com/news-release/2026/09/29/3370800/0/en/new-report-finds-average-brand-is-invisible-in-84-of-target-responses-in-ai-search.html) reports millions of responses across 8 LLMs: 16.3% average mention rate, 56.5% for leaders. Evidence class: vendor. Limitation: vendor-designed sample and undisclosed prompt panel.
+
+**2026-09-30 — geo-optimizer-skill passes 1,000 stars**  
+[geo-optimizer-skill](https://github.com/auriti-labs/geo-optimizer-skill) audit-and-optimize toolkit for ChatGPT, Perplexity, Gemini, and AI Overviews citations. Evidence class: community. Limitation: popularity is not proof of citation impact.
+
+### October
+
+**2026-10-01 — GEOFlow and yao-geo-skills ship October updates**  
+[GEOFlow](https://github.com/yaojingang/GEOFlow) platform (~3,758 stars) and the [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) collection (~867 stars) push updates after dense September releases. Evidence class: community. Limitation: release quality and measurement methodology unaudited.
+
+**2026-10-05 — Contentpen 2.0 launches all-in-one SEO/AEO positioning**  
+[Launch coverage](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/contentpen-2-0-launches-as-an-all-in-one-seo-aeo-tool-with-ai-visibility-tracking-across-7-ai-engines/) describes SEO/GEO scoring plus visibility across ChatGPT, Google AI, Copilot, Gemini, Perplexity, Grok, and Claude. Evidence class: vendor via third-party coverage. Limitation: effectiveness claims unverified.
+
+**2026-10-05 — genpark citation-scorer skill appears**  
+[Skill repo](https://github.com/alphaparkinc/genpark-generative-engine-optimization-and-citation-scorer-skill) offers a Python citation-visibility scorer for generative answers. Evidence class: community. Limitation: very new; scorer validity unevaluated.
+
+**2026-10-07 — eGEOagents and ai-visibility-framework push updates**  
+Content-refactor agents ([eGEOagents](https://github.com/mverab/eGEOagents)) and an open AEO/GEO framework ([ai-visibility-framework](https://github.com/lifebricksglobal/ai-visibility-framework)) show active early-October development. Evidence class: community. Limitation: new projects; outcomes unevaluated.
 
 ## Verified product launches and updates
 

@@ -48,6 +48,32 @@ Before acting, check:
 5. Could an engine update, personalization, or ordinary SEO explain the result?
 6. Does the behavior comply with subreddit, search-engine, advertising, and consumer-protection rules?
 
+## October 2026 addendum
+
+Snapshot supplement: 2026-10-07. Scores below are as reported by secondary coverage during the sweep; reddit.com fetches are bot-walled, so exact dates and live counts are unverified unless noted. Popularity is not evidence.
+
+| Approx. score | Date | Community | Discussion | Why it mattered |
+| ---: | --- | --- | --- | --- |
+| 152 | 2026-09 (unverified) | r/SEO | [GEO Got Torched: THANK YOU](https://www.reddit.com/r/SEO/comments/1u3vwdi/geo_got_torched_thank_you/) | High-engagement vendor backlash thread (~173 comments as reported); a useful record of practitioner skepticism toward GEO vendors. |
+
+The r/SEO discussion of [Google's Guide to Optimizing for Generative AI](https://www.reddit.com/r/SEO/comments/1te4t71/googles_guide_to_optimizing_for_generative_ai/) listed above remains the canonical thread for that topic; no duplicate entry was added.
+
+### Related practitioner threads on X
+
+Login-walled and unverified beyond secondary reporting; treat as practitioner signal, not evidence. No engagement claim below was independently re-fetched.
+
+- [Rankscale 7-stage ChatGPT retrieval teardown (@AlexGroberman_)](https://x.com/alexgroberman/status/2100577506785128929) — Vendor teardown across thousands of commercial queries (CRM, LMS, and others) on vendor-blog citations in ChatGPT, Gemini, Perplexity, and AI Overviews. Evidence: community/vendor. Published or materially updated: 2026-09. Limitations: vendor selling the observed pattern; sample and query list undisclosed.
+- [Competitor-aware GEO follow-up (@Jingg_n_Tonic)](https://x.com/Jingg_n_Tonic/status/2099799229849833751) — Research-adjacent thread on Princeton/Georgia Tech GEO work, arguing rewrite levers are zero-sum when every competitor applies them. Evidence: community. Published or materially updated: 2026-09. Limitations: informal summary, not the papers themselves; start from [research](research.md).
+- [25 AEO/GEO facts (@harpreetchatha_)](https://x.com/harpreetchatha_/status/2069991843367198774) — Practitioner myth-list (~394 likes / 74K views as reported), including no proven ROI for `llms.txt`/schema and long parametric-memory timelines. Evidence: community. Published or materially updated: 2026-09. Limitations: unattributed claims; verify each fact against official guidance before acting.
+- [SEO in 2026 honest take (@jakezward)](https://x.com/jakezward/status/2056371886364250466) — Practitioner thread conceding ~90% of AEO is SEO, with no measurable impact from schema plus `llms.txt` in the author's experience. Evidence: community. Published or materially updated: 2026. Limitations: single practitioner's experience; exact date unverified.
+
+### Context: manipulation and platform quality (out of window)
+
+Older high-engagement threads kept for context only, not 30-day additions:
+
+- [Spammers flooding Reddit with fake posts for AI search](https://www.reddit.com/r/technology/comments/1twzntr/spammers_are_flooding_reddit_with_fake_posts/) (r/technology, 2026-06-04; ~17,038 up / 1,159 comments as reported) — GEO-manipulation corpus discussion; supports this project's rejection of astroturfing.
+- [AI Slop Is Ruining Reddit](https://www.reddit.com/r/Futurology/comments/1pfowcd/ai_slop_is_ruining_reddit_for_everyone_reddit_is/) (r/Futurology, 2025-12-06; ~17,110 up / 1,107 comments as reported) — Platform-quality backdrop for why Reddit citations and Reddit spam both matter.
+
 ## Inclusion method and limitations
 
 The snapshot used web searches restricted to Reddit and queries covering GEO, AEO, AI Overviews, AI search visibility, ChatGPT visibility, r/SEO, r/TechSEO, r/bigseo, and marketing communities. We retained live, relevant 2026 threads with the strongest visible engagement and excluded removed posts, obvious promotional posts, and unrelated uses of “GEO.” This is not a complete Reddit API census, and scores are approximate.

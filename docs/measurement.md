@@ -1,6 +1,6 @@
 # Measuring AI search visibility
 
-Last reviewed: 2026-08-10
+Last reviewed: 2026-10-07
 
 AI visibility is not a single rank. The same prompt can produce different sources across runs, models, dates, locations, accounts, and interface states. A defensible program measures a distribution and keeps the raw evidence.
 
@@ -75,6 +75,15 @@ Do not create a panel solely from prompts where the brand is already named; that
 - [Bing Webmaster Tools AI Performance](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview) exposes citation counts, cited pages, sampled grounding queries, and trends for supported Microsoft experiences.
 
 Use first-party reporting as the anchor. Use third-party trackers to add cross-engine sampling, raw-answer archives, competitor comparisons, and workflow—not as an unquestionable source of “search volume.”
+
+## Practitioner guides and benchmarks (added October 2026)
+
+- [How to Track AI Search Visibility in 2026: Complete GEO Measurement Guide](https://dev.to/edo911/how-to-track-ai-search-visibility-in-2026-the-complete-geo-measurement-guide-4fka) — Practitioner guide built around a citation-rate metric, a 12-query starter method, and a weekly routine compatible with the minimum viable experiment above.
+  Evidence: community. Published or materially updated: 2026-09-11. Limitations: single author's workflow; adapt prompt panel and run counts to your own surface before adopting.
+- [AthenaHQ State of AI Search 2026](https://www.globenewswire.com/news-release/2026/09/29/3370800/0/en/new-report-finds-average-brand-is-invisible-in-84-of-target-responses-in-ai-search.html) — Vendor benchmark across 8 LLMs useful for calibrating mention-rate expectations (average 16.3% mentioned).
+  Evidence: vendor. Published or materially updated: 2026-09-29. Limitations: vendor sample; read method and denominator before quoting. Full notes in [research](research.md).
+- [OtterlyAI AI Citations Report 2026](https://otterly.ai/blog/theaicitationsreport-2026/) — Vendor report on citation frequency and third-party authority patterns.
+  Evidence: vendor. Published or materially updated: 2026. Limitations: exact date and methodology unconfirmed; treat as directional.
 
 ## Vendor evaluation questions
 

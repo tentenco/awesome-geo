@@ -1,6 +1,6 @@
 # GEO/AEO research and datasets
 
-Last reviewed: 2026-08-10
+Last reviewed: 2026-10-07
 
 Research status matters. “Preprint” means the work is public but should not be presented as peer-reviewed evidence unless a venue is independently verified.
 
@@ -27,6 +27,18 @@ These can reveal large-scale patterns but have commercial incentives. Read the m
 - [Semrush operational-gap study](https://www.semrush.com/blog/the-operational-gap-ai-seo-study/) — 2026 marketer adoption survey.
 - [Semrush AI search trends](https://www.semrush.com/blog/ai-search-trends/) — 2026 vendor editorial and data synthesis.
 - [Ahrefs AI search research](https://ahrefs.com/blog/category/ai-search/) — Ongoing studies with query and citation datasets; verify each article's date and method separately.
+- **AthenaHQ State of AI Search 2026** — Vendor benchmark reporting millions of responses across 8 LLMs: the average brand is mentioned in 16.3% of target responses, leaders reach 56.5%, and ~16% of owned-domain content goes uncited. Status: vendor.
+  Published: 2026-09-29. [Press release](https://www.globenewswire.com/news-release/2026/09/29/3370800/0/en/new-report-finds-average-brand-is-invisible-in-84-of-target-responses-in-ai-search.html)
+  Limitations: vendor-designed sample and undisclosed prompt panel; prefer the original AthenaHQ report over syndicated copies when available.
+- **Per-engine citation leaders, September 2026 (Ahrefs Brand Radar synthesis)** — Third-party synthesis of Ahrefs data across 3M+ US queries per engine: YouTube leads AI Overviews (22.9%), Reddit leads AI Mode/Gemini/ChatGPT/Perplexity, Amazon tops Copilot. Status: vendor-data synthesis.
+  Published: 2026-09-02. [Synthesis](https://netcontentseo.com/article/there-is-no-single-ai-citation-strategy-reddit-leads-four-engines-youtube-leads-ai-overviews-and-amazon-dominates-copilot-1000)
+  Limitations: secondary synthesis, not Ahrefs primary output; verify query sets and date windows before quoting per-engine shares.
+- **OtterlyAI AI Citations Report 2026** — Vendor report on citation frequency, third-party authority, and the shift from SEO metrics to entity alignment. Status: vendor.
+  Published: 2026. [Report](https://otterly.ai/blog/theaicitationsreport-2026/)
+  Limitations: commercially interested sample and methodology; confirm exact publication date and denominators before citing.
+- **What Is llms.txt and Does It Work? (depra.ai study mirror)** — Independent India-shopping study finding 53% of cited sites had an `llms.txt` but no evidence any major engine uses it for citation decisions; Google states it ignores the file. Status: independent.
+  Published: 2026-09-15. [Mirror](https://dev.to/ifham_baig_2d0ab31dae97b3/what-is-llmstxt-and-does-it-work-1k49)
+  Limitations: dev.to mirror of the original depra.ai write-up; domain- and market-specific sample, not a cross-platform causal test.
 
 ## How to evaluate a GEO study
 

@@ -8,7 +8,7 @@
 
 **[繁體中文](README-zh-TW.md)** · [简体中文](README-zh-CN.md) · [日本語](README-ja.md) · [한국어](README-ko.md) · [العربية](README-ar.md)
 
-Last reviewed: **2026-08-10** · [What changed in 2026](docs/2026-landscape.md)
+Last reviewed: **2026-10-07** · [What changed in 2026](docs/2026-landscape.md)
 
 ## Start here
 

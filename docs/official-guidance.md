@@ -1,6 +1,6 @@
 # Official AI-search guidance
 
-Last reviewed: 2026-08-10
+Last reviewed: 2026-10-07
 
 This is the primary-source layer of the project. It distinguishes **search inclusion**, **model training**, and **user-triggered retrieval** because one robots directive rarely controls all three.
 
@@ -90,6 +90,11 @@ Always verify the linked live documentation before deployment.
 3. Apply the smallest control that matches the policy decision.
 4. Test with server logs and first-party webmaster tools; a validator cannot prove downstream use.
 5. Record the decision owner and review date. Recheck quarterly because crawler documentation changes.
+
+## Observed crawler-control shifts (September 2026)
+
+- [Cloudflare's September 15 change and AI crawler refusals](https://www.semrush.com/blog/cloudfare-blocks-ai-training/) — Pre/post analysis of 1,046 sites reporting higher refusal rates for training crawlers (ClaudeBot 19.9→22.8%, GPTBot 18.9→22.0%) alongside sharp drops for search crawlers (OAI-SearchBot 16.9→3.0%, Perplexity-User 14.9→2.2%), with controls flat.
+  Evidence: vendor/secondary. Published or materially updated: 2026-09. Limitations: secondary vendor analysis of a third-party change; verify dates, sample, and bot classifications in server logs before acting.
 
 ## No universal “GEO compliance” standard
 

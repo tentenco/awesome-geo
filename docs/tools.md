@@ -1,6 +1,6 @@
 # GEO/AEO tools and ecosystem
 
-Last reviewed: 2026-08-10
+Last reviewed: 2026-10-07
 
 This is a capability map, not a leaderboard. Pricing, coverage, and product behavior change frequently; verify them with the vendor before purchase. Commercial inclusion is unpaid.
 
@@ -50,6 +50,37 @@ See the full [measurement framework](measurement.md#vendor-evaluation-questions)
 - [Writesonic GEO](https://writesonic.com/generative-engine-optimization-geo) — Monitoring and content workflow within the Writesonic platform.
 - [SE Ranking AI Search Toolkit](https://seranking.com/ai-search/) — AI visibility integrated with an SEO suite.
 - [Amplitude AI Visibility](https://amplitude.com/ai-visibility) — Free visibility entry point tied to Amplitude analytics/content workflows.
+- [Contentpen 2.0](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/contentpen-2-0-launches-as-an-all-in-one-seo-aeo-tool-with-ai-visibility-tracking-across-7-ai-engines/) — All-in-one SEO/AEO positioning with visibility tracking across ChatGPT, Google AI, Copilot, Gemini, Perplexity, Grok, and Claude (launch covered 2026-10-05; vendor claims unverified).
+
+## Open-source GEO projects and agent skills
+
+Added in the October 2026 sweep of trending GitHub projects active in the previous ~30 days. Star counts and activity dates are as reported on 2026-10-07 and were not independently re-fetched; inspect license, code, provider costs, and scoring methodology before production use. Inclusion is not an endorsement of effectiveness.
+
+- [GEOFlow](https://github.com/yaojingang/GEOFlow) — Open-source GEO platform with AI-visibility tracking; dense September 2026 releases (v3.0.0/v3.1.0).
+  Evidence: community. Published or materially updated: 2026-10-01. Limitations: ~3,758 stars as reported; release quality and measurement methodology unaudited.
+- [nevoai-geo-platform](https://github.com/kwdos/nevoai-geo-platform) — Visibility tracking covering DeepSeek, Doubao, Yuanbao, and ERNIE citations plus share of voice; distinctive China-engine coverage.
+  Evidence: community. Published or materially updated: 2026-10-07. Limitations: new project (created 2026-09-22); methodology and data quality unaudited.
+- [open-geo](https://github.com/geofn-com/open-geo) — Self-described "Lighthouse for GEO": `llms.txt` generator/doctor, MCP server, and TypeScript CLI for audits.
+  Evidence: community. Published or materially updated: 2026-09-14. Limitations: new project; audit scoring unaudited and `llms.txt` has no documented Google AI Search effect.
+- [geo-optimizer-skill](https://github.com/auriti-labs/geo-optimizer-skill) — Audit-and-optimize toolkit for ChatGPT, Perplexity, Gemini, and AI Overviews citations (CLI, Python, MCP, Astro).
+  Evidence: community. Published or materially updated: 2026-09-30. Limitations: ~1,012 stars as reported; citation-impact claims unaudited.
+- [eGEOagents](https://github.com/mverab/eGEOagents) — Agent toolkit for refactoring content toward ChatGPT, Perplexity, Gemini, and Claude citations.
+  Evidence: community. Published or materially updated: 2026-10-07. Limitations: ~197 stars as reported; rewrite effectiveness unaudited.
+- [yao-geo-skills](https://github.com/yaojingang/yao-geo-skills) — Continuously updated collection of GEO agent skills from the same maintainer as GEOFlow.
+  Evidence: community. Published or materially updated: 2026-10-01. Limitations: ~867 stars as reported; skill quality varies by task.
+- [ai-visibility-framework](https://github.com/lifebricksglobal/ai-visibility-framework) — Open AEO/GEO framework combining RAG practice, `llms.txt`, and entity authority.
+  Evidence: community. Published or materially updated: 2026-10-07. Limitations: new project (created 2026-09-27); framework outcomes unevaluated.
+- [opengeo-platform](https://github.com/jack20002/opengeo-platform) — Self-hosted visibility platform with measurement, content studio, and attribution loop.
+  Evidence: community. Published or materially updated: 2026-09-27. Limitations: new project; scoring and attribution methodology unaudited.
+- [GEORank](https://github.com/yaojingang/GEORank) — Rank-measurement companion to GEOFlow from the same maintainer, active through September 2026.
+  Evidence: community. Published or materially updated: 2026-09-16. Limitations: ~490 stars as reported; metric definitions unaudited.
+- [genpark citation scorer skill](https://github.com/alphaparkinc/genpark-generative-engine-optimization-and-citation-scorer-skill) — Python skill scoring citation visibility in generative answers.
+  Evidence: community. Published or materially updated: 2026-10-05. Limitations: very new and low-adoption; scorer validity unevaluated.
+
+## Independent tool comparisons
+
+- [5 AI Search Visibility Tools to Track Brand Mentions](https://growthner.com/blog/ai-search-visibility-tools-to-track-your-brand-mentions-in-llms/) — Third-party comparison of Semrush, Ahrefs, Profound, Peec, and Otterly ($29–$199), noting 91% of cited URLs appear in only one LLM.
+  Evidence: independent. Published or materially updated: 2026-09-30. Limitations: single publisher's test design; verify engines, sample, and pricing before purchase.
 
 ## Technical, entity, and content infrastructure
 
