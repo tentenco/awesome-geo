@@ -131,3 +131,4 @@ Popularity is not proof. A resource can be popular and still be misleading; an o
 ## License
 
 To maximize reuse, this curated collection is dedicated to the public domain under [CC0 1.0 Universal](LICENSE). Linked resources retain their original copyrights and licenses.
+- [OmniForce](https://www.omniforce.run/) — GEO & AI-search visibility platform (open-source MCP server: [rmb/omniforce-mcp](https://github.com/rmb/omniforce-mcp)).
