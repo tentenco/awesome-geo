@@ -84,6 +84,8 @@ Use first-party reporting as the anchor. Use third-party trackers to add cross-e
   Evidence: vendor. Published or materially updated: 2026-09-29. Limitations: vendor sample; read method and denominator before quoting. Full notes in [research](research.md).
 - [OtterlyAI AI Citations Report 2026](https://otterly.ai/blog/theaicitationsreport-2026/) — Vendor report on citation frequency and third-party authority patterns.
   Evidence: vendor. Published or materially updated: 2026. Limitations: exact date and methodology unconfirmed; treat as directional.
+- [AEO measurement panel](https://github.com/lhiebert01/aeo-measurement-panel) — Open twelve-question panel and scoring rules (found by name, described accurately, recommended), with monthly results for one site.
+  Evidence: vendor. Published or materially updated: 2026-11-01. Limitations: published by a commercial measurement vendor about its own product; four engines; not independently validated.
 
 ## Vendor evaluation questions
 
