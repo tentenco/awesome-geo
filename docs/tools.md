@@ -51,6 +51,9 @@ See the full [measurement framework](measurement.md#vendor-evaluation-questions)
 - [SE Ranking AI Search Toolkit](https://seranking.com/ai-search/) — AI visibility integrated with an SEO suite.
 - [Amplitude AI Visibility](https://amplitude.com/ai-visibility) — Free visibility entry point tied to Amplitude analytics/content workflows.
 - [Contentpen 2.0](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/contentpen-2-0-launches-as-an-all-in-one-seo-aeo-tool-with-ai-visibility-tracking-across-7-ai-engines/) — All-in-one SEO/AEO positioning with visibility tracking across ChatGPT, Google AI, Copilot, Gemini, Perplexity, Grok, and Claude (launch covered 2026-10-05; vendor claims unverified).
+- [CiteAura](https://citeaura.com/) — Brand visibility and citation sampling across ChatGPT, Claude, Gemini, Perplexity, Copilot, DeepSeek, Grok, and Google AI Overviews.
+  Evidence: vendor. Each result is labelled by sampling mode (model memory, web-grounded retrieval, or manual product-surface observation) with model version and timestamp; findings become engineering tickets and are re-checked by re-crawl and re-sampling.
+  Published or materially updated: 2026-09-14. Limitations: vendor-reported capabilities, no independent audit of scoring; supported engines, export path, and pricing are listed at [citeaura.com/pricing](https://citeaura.com/pricing) and [citeaura.com/privacy](https://citeaura.com/privacy). Submitted by the vendor; affiliation declared.
 
 ## Open-source GEO projects and agent skills
 
