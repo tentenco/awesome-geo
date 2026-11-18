@@ -90,7 +90,7 @@ Preprints are labelled as such and should not be treated as platform guarantees.
 | Microsoft AI citations | [Bing Webmaster Tools](https://www.bing.com/webmasters/about) | First-party AI Performance public preview. |
 | Open-source, self-hosted monitoring | [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | Inspect license, provider costs, methodology, and security before deployment. |
 | Multi-engine enterprise monitoring | Profound, Semrush, Ahrefs, BrightEdge, seoClarity | Compare prompt methodology, geographic coverage, raw evidence, export, and retention. |
-| Mid-market monitoring | Peec AI, Otterly.AI, Scrunch AI, LLMrefs, Rankscale | Verify engines and prompt limits against your actual market. |
+| Mid-market monitoring | Peec AI, Otterly.AI, Scrunch AI, LLMrefs, Rankscale, [LLMMonitor](https://llmmonitor.io/) | Verify engines and prompt limits against your actual market. |
 | Technical discovery | Search Console, Bing Webmaster Tools, IndexNow, crawler logs | Establish crawl/index eligibility before buying visibility software. |
 
 This project does not rank vendors and accepts no paid placement. See the full [tool directory and evaluation checklist](docs/tools.md).
