@@ -51,6 +51,8 @@ See the full [measurement framework](measurement.md#vendor-evaluation-questions)
 - [SE Ranking AI Search Toolkit](https://seranking.com/ai-search/) — AI visibility integrated with an SEO suite.
 - [Amplitude AI Visibility](https://amplitude.com/ai-visibility) — Free visibility entry point tied to Amplitude analytics/content workflows.
 - [Contentpen 2.0](https://martechseries.com/predictive-ai/ai-platforms-machine-learning/contentpen-2-0-launches-as-an-all-in-one-seo-aeo-tool-with-ai-visibility-tracking-across-7-ai-engines/) — All-in-one SEO/AEO positioning with visibility tracking across ChatGPT, Google AI, Copilot, Gemini, Perplexity, Grok, and Claude (launch covered 2026-10-05; vendor claims unverified).
+- [SupaSEO](https://supaseo.dev) — Local rank tracking (Google Maps grids and Google organic results) plus AI citation monitoring, run on the customer's own provider keys; one-time license.
+  Evidence: vendor. Published or materially updated: 2026-11-21. Limitations: engine coverage depends on the customer's own API keys (e.g. DataForSEO); AI citation coverage limited to engines the tool queries.
 
 ## Open-source GEO projects and agent skills
 
