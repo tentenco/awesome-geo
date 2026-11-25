@@ -62,7 +62,6 @@
 - [IndexNow](https://www.indexnow.org/) — 通知参与搜索引擎 URL 变化的开放协议。
 - [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) — 抓取、索引和质量的核心指南。
 
-### OpenAI 与其他答案引擎
 
 - [OpenAI 发布者 FAQ](https://help.openai.com/en/articles/12627856) — `OAI-SearchBot`、`noindex`、收录、引用和引荐跟踪。
 - [OpenAI 爬虫文档](https://platform.openai.com/docs/bots) — 区分搜索、用户触发和训练相关的 user agents。
