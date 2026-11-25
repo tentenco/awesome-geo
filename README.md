@@ -79,6 +79,7 @@ See [official guidance](docs/official-guidance.md) for a crawler-control matrix 
 - [Optimizing Visibility in Generative Engines: A Critical Survey (2023–2026)](https://arxiv.org/abs/2607.14035) — 2026 preprint reviewing terminology, metrics, evidence, risks, and reproducibility.
 - [AgenticGEO](https://arxiv.org/abs/2603.20213) — 2026 preprint proposing an agentic optimization system.
 - [GEO for Pinterest acquisition growth](https://arxiv.org/abs/2602.02961) — 2026 applied VLM/agent framework; treat its domain-specific findings cautiously.
+- [OpenGEO](https://opengeo.page/) — Chinese-language GEO observation logs and an AI-crawler reference (Chinese AI crawler user agents, fake-crawler detection, robots.txt checker); CC BY 4.0. Evidence: community. Published or materially updated: 2026-11-25. Limitations: self-published observation logs kept by the site's own maintainer; entries are Chinese-language.
 
 Preprints are labelled as such and should not be treated as platform guarantees. More in [research and datasets](docs/research.md).
 
