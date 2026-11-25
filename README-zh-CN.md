@@ -61,6 +61,7 @@
 - [索引角色的演变](https://blogs.bing.com/search/May-2026/Evolving-role-of-the-index-From-ranking-pages-to-supporting-answers) — Microsoft 对页面排序和答案 grounding 的区分。
 - [IndexNow](https://www.indexnow.org/) — 通知参与搜索引擎 URL 变化的开放协议。
 - [Bing Webmaster Guidelines](https://www.bing.com/webmasters/help/webmaster-guidelines-30fba23a) — 抓取、索引和质量的核心指南。
+
 ### OpenAI 与其他答案引擎
 
 - [OpenAI 发布者 FAQ](https://help.openai.com/en/articles/12627856) — `OAI-SearchBot`、`noindex`、收录、引用和引荐跟踪。
