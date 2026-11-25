@@ -79,6 +79,7 @@
 - [生成式引擎可见性批判性综述（2023–2026）](https://arxiv.org/abs/2607.14035) — 2026 预印本，回顾术语、指标、证据、风险和可复现性。
 - [AgenticGEO](https://arxiv.org/abs/2603.20213) — 2026 预印本，提出 agentic 优化系统。
 - [面向 Pinterest acquisition growth 的 GEO 框架](https://arxiv.org/abs/2602.02961) — 2026 年 VLM／agent 应用框架；应谨慎看待其特定领域结论。
+- [OpenGEO](https://opengeo.page/) — 中文 AI 搜索观测记录与 AI 爬虫资料库（国内 AI 爬虫 UA、伪装爬虫识别、robots 检查工具），CC BY 4.0。证据类别：community。发布或实质更新：2026-11-25。局限：观测记录由站点维护者自行发布，未经独立验证；条目为中文。
 
 预印本均有明确标记，不应被视为平台保证。更多内容请参阅[研究与数据集](docs/research.md)。
 
