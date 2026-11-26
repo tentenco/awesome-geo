@@ -73,12 +73,16 @@ See [official guidance](docs/official-guidance.md) for a crawler-control matrix 
 
 ## Essential research
 
+
 - [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) — The foundational paper; KDD 2024. Introduced GEO-Bench and experimental visibility interventions.
 - [GEO project and benchmark](https://generative-engines.com/GEO/) — Project site, data, code, and benchmark context.
 - [Don't Measure Once: Measuring Visibility in AI Search (GEO)](https://arxiv.org/abs/2604.07585) — 2026 preprint on repeated measurement under stochastic outputs.
 - [Optimizing Visibility in Generative Engines: A Critical Survey (2023–2026)](https://arxiv.org/abs/2607.14035) — 2026 preprint reviewing terminology, metrics, evidence, risks, and reproducibility.
 - [AgenticGEO](https://arxiv.org/abs/2603.20213) — 2026 preprint proposing an agentic optimization system.
 - [GEO for Pinterest acquisition growth](https://arxiv.org/abs/2602.02961) — 2026 applied VLM/agent framework; treat its domain-specific findings cautiously.
+- [Nicker AI Answer Audit 2026](https://nickerhorse.com/pages/what-ai-tells-horse-owners-about-red-light-therapy) — Documents citation patterns for ChatGPT answers in an equine-care prompt set.
+  Evidence: vendor report.
+  Published or materially updated: 2026-11-25. Limitations: The main sample covers one collection day and a single topic area.
 
 Preprints are labelled as such and should not be treated as platform guarantees. More in [research and datasets](docs/research.md).
 
